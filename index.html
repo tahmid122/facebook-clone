@@ -1,0 +1,4446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <section id="header">
+      <div class="header-l">
+        <a href="https://www.facebook.com"
+          ><img src="./images/download.svg" alt="fb-logo"
+        /></a>
+        <input type="text" placeholder="Search Facebook" />
+      </div>
+      <div class="header-mid">
+        <a href="index.html"
+          ><i class="fa-solid fa-house active" title="Home"></i
+        ></a>
+        <a href="watch.html"><i class="fa-solid fa-tv" title="Video"></i></a>
+        <a href="marketplace.html"
+          ><i class="fa-solid fa-shop" title="Marketplace"></i
+        ></a>
+
+        <a href="game.html"
+          ><i class="fa-solid fa-gamepad" title="Gaming"></i
+        ></a>
+      </div>
+      <div class="header-r">
+        <div class="menu">
+          <img
+            width="20px"
+            height="20px"
+            src="./images/icons8-spotted-patterns-50.png"
+            alt="icon"
+            title="Menu"
+          />
+        </div>
+        <div class="hide-mess">
+          <i class="fa-brands fa-facebook-messenger" title="Messenger"
+            ><span class="msg">9</span></i
+          >
+        </div>
+        <div class="not-sh">
+          <i class="fa-solid fa-bell" title="Notifications"
+            ><span class="msg">5</span></i
+          >
+        </div>
+        <div class="hrimg" title="Account">
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+
+        <section class="menu-details">
+          <section class="menu-head">
+            <h1>Menu</h1>
+          </section>
+          <section class="md-sub">
+            <section class="texta">
+              <span style="display: block" class="search-menu">
+                <input type="text" placeholder="Search Menu" />
+              </span>
+              <h3 style="margin: 15px 0">Social</h3>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/event.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Events</h4>
+                  <p>
+                    Organize or find events and other things to do online and
+                    nearby
+                  </p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/friendss.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Friends</h4>
+                  <p>Search for friends or people you may know.</p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/group.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Groups</h4>
+                  <p>Connect with people who share your interests.</p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/newsfeed.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">News Feed</h4>
+                  <p>See relevant posts from people and Pages you follow.</p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/feeds.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Feeds</h4>
+                  <p>
+                    See the most recent posts from your friends, groups, Pages
+                    and more.
+                  </p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/page.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Pages</h4>
+                  <p>Discover and connect with businesses on Facebook</p>
+                </span>
+              </section>
+              <hr style="margin-top: 15px" />
+              <h3 style="margin: 15px 0">Entertainment</h3>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/event.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Events</h4>
+                  <p>
+                    Organize or find events and other things to do online and
+                    nearby
+                  </p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/friendss.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Friends</h4>
+                  <p>Search for friends or people you may know.</p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/group.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Groups</h4>
+                  <p>Connect with people who share your interests.</p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/newsfeed.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">News Feed</h4>
+                  <p>See relevant posts from people and Pages you follow.</p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/feeds.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Feeds</h4>
+                  <p>
+                    See the most recent posts from your friends, groups, Pages
+                    and more.
+                  </p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/page.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Pages</h4>
+                  <p>Discover and connect with businesses on Facebook</p>
+                </span>
+              </section>
+              <hr style="margin-top: 15px" />
+              <h3 style="margin: 15px 0">Shopping</h3>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/event.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Events</h4>
+                  <p>
+                    Organize or find events and other things to do online and
+                    nearby
+                  </p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/friendss.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Friends</h4>
+                  <p>Search for friends or people you may know.</p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/group.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Groups</h4>
+                  <p>Connect with people who share your interests.</p>
+                </span>
+              </section>
+              <h3 style="margin: 15px 0">Entertainment</h3>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/event.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Events</h4>
+                  <p>
+                    Organize or find events and other things to do online and
+                    nearby
+                  </p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/friendss.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Friends</h4>
+                  <p>Search for friends or people you may know.</p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/group.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Groups</h4>
+                  <p>Connect with people who share your interests.</p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/newsfeed.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">News Feed</h4>
+                  <p>See relevant posts from people and Pages you follow.</p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/feeds.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Feeds</h4>
+                  <p>
+                    See the most recent posts from your friends, groups, Pages
+                    and more.
+                  </p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/page.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Pages</h4>
+                  <p>Discover and connect with businesses on Facebook</p>
+                </span>
+              </section>
+              <hr style="margin-top: 15px" />
+              <h3 style="margin: 15px 0">Personal</h3>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/event.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Events</h4>
+                  <p>
+                    Organize or find events and other things to do online and
+                    nearby
+                  </p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/friendss.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Friends</h4>
+                  <p>Search for friends or people you may know.</p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/group.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Groups</h4>
+                  <p>Connect with people who share your interests.</p>
+                </span>
+              </section>
+              <h3 style="margin: 15px 0">Professional</h3>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/event.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Events</h4>
+                  <p>
+                    Organize or find events and other things to do online and
+                    nearby
+                  </p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/friendss.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Friends</h4>
+                  <p>Search for friends or people you may know.</p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/group.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Groups</h4>
+                  <p>Connect with people who share your interests.</p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/newsfeed.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">News Feed</h4>
+                  <p>See relevant posts from people and Pages you follow.</p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/feeds.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Feeds</h4>
+                  <p>
+                    See the most recent posts from your friends, groups, Pages
+                    and more.
+                  </p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/page.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Pages</h4>
+                  <p>Discover and connect with businesses on Facebook</p>
+                </span>
+              </section>
+              <hr style="margin-top: 15px" />
+              <h3 style="margin: 15px 0">Community Resources</h3>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/event.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Events</h4>
+                  <p>
+                    Organize or find events and other things to do online and
+                    nearby
+                  </p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/friendss.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Friends</h4>
+                  <p>Search for friends or people you may know.</p>
+                </span>
+              </section>
+              <section class="menu-item">
+                <span class="mi-1">
+                  <img src="./images/group.png" alt="" />
+                </span>
+                <span class="mi-2">
+                  <h4 style="margin-bottom: 2px">Groups</h4>
+                  <p>Connect with people who share your interests.</p>
+                </span>
+              </section>
+            </section>
+          </section>
+          <section class="md-sub2">
+            <section class="texta2">
+              <h2 style="margin-bottom: 10px">Create</h2>
+              <ul>
+                <li class="cr-item">
+                  <span class="cr-pic"><span></span></span>
+                  <span><h4 style="font-size: 15px">Post</h4></span>
+                </li>
+                <li class="cr-item">
+                  <span class="cr-pic"
+                    ><span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yJ/r/rbv3L04dX-r.png?_nc_eui2=AeHx0Rd9UtONH6IW0Y3M13CziJrT6CpHrFuImtPoKkesW45-GHHuz4P3YDjnspOxAAKQDigvRw6_rSTjDBjT_p1b');
+                        background-position: 0px -442px;
+                        background-size: 34px 752px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span
+                  ></span>
+                  <span><h4 style="font-size: 15px">Story</h4></span>
+                </li>
+                <li class="cr-item">
+                  <span class="cr-pic"
+                    ><span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/B8YrWVWqHS_.png?_nc_eui2=AeHiPkcVJeJvhDaJocjBMU72zv9XLmwqUu_O_1cubCpS78hcnhFBgAl44Ie0RJMiAnuoW4tnduK2WBkkbuFmgSnu');
+                        background-position: -52px -108px;
+                        background-size: 74px 430px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span
+                  ></span>
+                  <span><h4 style="font-size: 15px">Reel</h4></span>
+                </li>
+                <li class="cr-item">
+                  <span class="cr-pic"
+                    ><span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yE/r/HTiHmU3JmoF.png?_nc_eui2=AeGdBlxfPbtCyt2xYB6vzOwdXSaxv2KYxsBdJrG_YpjGwKqXzIpPFqTEeVvnv-gudateVHnWnLGIhlhu54T9hUCe');
+                        background-position: 0px -160px;
+                        background-size: 38px 262px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span
+                  ></span>
+                  <span><h4 style="font-size: 15px">Life event</h4></span>
+                </li>
+
+                <hr style="margin: 15px 0" />
+
+                <li class="cr-item">
+                  <span class="cr-pic"
+                    ><span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yJ/r/rbv3L04dX-r.png?_nc_eui2=AeHx0Rd9UtONH6IW0Y3M13CziJrT6CpHrFuImtPoKkesW45-GHHuz4P3YDjnspOxAAKQDigvRw6_rSTjDBjT_p1b');
+                        background-position: 0px -156px;
+                        background-size: 34px 752px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span
+                  ></span>
+                  <span><h4 style="font-size: 15px">Page</h4></span>
+                </li>
+                <li class="cr-item">
+                  <span class="cr-pic"
+                    ><span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yE/r/HTiHmU3JmoF.png?_nc_eui2=AeGdBlxfPbtCyt2xYB6vzOwdXSaxv2KYxsBdJrG_YpjGwKqXzIpPFqTEeVvnv-gudateVHnWnLGIhlhu54T9hUCe');
+                        background-position: 0px -182px;
+                        background-size: 38px 262px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span
+                  ></span>
+                  <span><h4 style="font-size: 15px">Ad</h4></span>
+                </li>
+                <li class="cr-item">
+                  <span class="cr-pic"
+                    ><span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yJ/r/rbv3L04dX-r.png?_nc_eui2=AeHx0Rd9UtONH6IW0Y3M13CziJrT6CpHrFuImtPoKkesW45-GHHuz4P3YDjnspOxAAKQDigvRw6_rSTjDBjT_p1b');
+                        background-position: 0px -134px;
+                        background-size: 34px 752px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span
+                  ></span>
+                  <span><h4 style="font-size: 15px">Group</h4></span>
+                </li>
+                <li class="cr-item">
+                  <span class="cr-pic"
+                    ><span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/B8YrWVWqHS_.png?_nc_eui2=AeHiPkcVJeJvhDaJocjBMU72zv9XLmwqUu_O_1cubCpS78hcnhFBgAl44Ie0RJMiAnuoW4tnduK2WBkkbuFmgSnu');
+                        background-position: -22px -182px;
+                        background-size: 74px 430px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span
+                  ></span>
+                  <span><h4 style="font-size: 15px">Event</h4></span>
+                </li>
+                <li class="cr-item">
+                  <span class="cr-pic"
+                    ><span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yJ/r/rbv3L04dX-r.png?_nc_eui2=AeHx0Rd9UtONH6IW0Y3M13CziJrT6CpHrFuImtPoKkesW45-GHHuz4P3YDjnspOxAAKQDigvRw6_rSTjDBjT_p1b');
+                        background-position: 0px -376px;
+                        background-size: 34px 752px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span
+                  ></span>
+                  <span
+                    ><h4 style="font-size: 15px">Marketplace listing</h4></span
+                  >
+                </li>
+              </ul>
+            </section>
+          </section>
+        </section>
+        <section
+          class="menu-details mess-sha"
+          style="background-color: white; width: 360px; overflow: auto"
+        >
+          <section class="mess-head">
+            <h2 style="font-size: 25px">Chats</h2>
+            <section class="mess-r">
+              <span
+                style="
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 20px;
+                  height: 20px;
+                "
+                ><i class="fa-solid fa-ellipsis fa-fw"></i
+              ></span>
+              <span
+                style="
+                  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LIAvdOlPM7K.png?_nc_eui2=AeE2VpKZKHmI9xRzBkCPUMCzLwM4qdpjS3UvAzip2mNLdVJfMVUbr6AW9s5E7oUWNkUfZy0fZjtxtxMU-BaH_d4l');
+                  background-position: 0px -494px;
+                  background-size: 38px 614px;
+                  width: 20px;
+                  height: 20px;
+                  background-repeat: no-repeat;
+                  display: inline-block;
+                "
+              ></span>
+              <span
+                style="
+                  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LIAvdOlPM7K.png?_nc_eui2=AeE2VpKZKHmI9xRzBkCPUMCzLwM4qdpjS3UvAzip2mNLdVJfMVUbr6AW9s5E7oUWNkUfZy0fZjtxtxMU-BaH_d4l);
+                  background-position: 0px -578px;
+                  background-size: 38px 614px;
+                  width: 16px;
+                  height: 16px;
+                  background-repeat: no-repeat;
+                  display: inline-block;
+                "
+              ></span>
+            </section>
+          </section>
+
+          <section class="mess-body">
+            <span style="display: block" class="search-menu mess-search">
+              <input type="text" placeholder="Search Messenger" />
+            </span>
+            <section class="inco">
+              <span class="inco-active in-hs" style="margin-right: 8px"
+                ><b>Inbox</b></span
+              >
+              <span class="comm-hs"><b>Communities</b></span>
+            </section>
+            <section class="uni-inbox">
+              <section class="message">
+                <span class="message-img" style="position: relative"
+                  ><img src="./images/dataorg.png" alt="" />
+                  <span class="greendot"></span
+                ></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>The Data Orchard</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l"
+                      >Md Tauhid: If possible then @Ali...</span
+                    >
+                    <span class="mdd-r">57m</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message msgShow">
+                <span class="message-img"
+                  ><img src="./images/ali.jpg" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>Ali Haider</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l">You: vai?</span>
+                    <span class="mdd-r">9m</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message showMsg4">
+                <span class="message-img" style="position: relative"
+                  ><img src="./images/yasin.jpg" alt="" /><span
+                    class="greendot"
+                  ></span
+                ></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>Yasin Hasan</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l">The video chat ended</span>
+                    <span class="mdd-r">1h</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message">
+                <span class="message-img"
+                  ><img src="./images/dataorg.png" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>The Data Orchard</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l"
+                      >Md Tauhid: If possible then @Ali...</span
+                    >
+                    <span class="mdd-r">57m</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message">
+                <span class="message-img"
+                  ><img src="./images/ali.jpg" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>Ali Haider</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l">You: vai?</span>
+                    <span class="mdd-r">9m</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message">
+                <span class="message-img"
+                  ><img src="./images/hila.jpg" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>Shila Chowdhury</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l">The video chat ended</span>
+                    <span class="mdd-r">1h</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message">
+                <span class="message-img"
+                  ><img src="./images/dataorg.png" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>The Data Orchard</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l"
+                      >Md Tauhid: If possible then @Ali...</span
+                    >
+                    <span class="mdd-r">57m</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message">
+                <span class="message-img"
+                  ><img src="./images/ali.jpg" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>Ali Haider</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l">You: vai?</span>
+                    <span class="mdd-r">9m</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message">
+                <span class="message-img"
+                  ><img src="./images/hila.jpg" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>Shila Chowdhury</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l">The video chat ended</span>
+                    <span class="mdd-r">1h</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message">
+                <span class="message-img"
+                  ><img src="./images/dataorg.png" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>The Data Orchard</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l"
+                      >Md Tauhid: If possible then @Ali...</span
+                    >
+                    <span class="mdd-r">57m</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message">
+                <span class="message-img"
+                  ><img src="./images/ali.jpg" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>Ali Haider</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l">You: vai?</span>
+                    <span class="mdd-r">9m</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message">
+                <span class="message-img"
+                  ><img src="./images/hila.jpg" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>Shila Chowdhury</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l">The video chat ended</span>
+                    <span class="mdd-r">1h</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message">
+                <span class="message-img"
+                  ><img src="./images/dataorg.png" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>The Data Orchard</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l"
+                      >Md Tauhid: If possible then @Ali...</span
+                    >
+                    <span class="mdd-r">57m</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message">
+                <span class="message-img"
+                  ><img src="./images/ali.jpg" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>Ali Haider</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l">You: vai?</span>
+                    <span class="mdd-r">9m</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message">
+                <span class="message-img"
+                  ><img src="./images/hila.jpg" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>Shila Chowdhury</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l">The video chat ended</span>
+                    <span class="mdd-r">1h</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message">
+                <span class="message-img"
+                  ><img src="./images/dataorg.png" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>The Data Orchard</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l"
+                      >Md Tauhid: If possible then @Ali...</span
+                    >
+                    <span class="mdd-r">57m</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message">
+                <span class="message-img"
+                  ><img src="./images/ali.jpg" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>Ali Haider</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l">You: vai?</span>
+                    <span class="mdd-r">9m</span>
+                  </section>
+                </span>
+              </section>
+              <section class="message">
+                <span class="message-img"
+                  ><img src="./images/hila.jpg" alt=""
+                /></span>
+                <span class="message-details">
+                  <section class="md-title"><h4>Shila Chowdhury</h4></section>
+                  <section class="md-desc">
+                    <span class="mdd-l">The video chat ended</span>
+                    <span class="mdd-r">1h</span>
+                  </section>
+                </span>
+              </section>
+            </section>
+            <section class="mess-bottom">
+              <a href="#" style="color: blue"><h4>See all in Messenger</h4></a>
+            </section>
+            <section class="uni-inbox uni-comm">
+              <h4 style="padding: 8px 8px 8px 8px; font-size: 16.5px">
+                Your chats
+              </h4>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/datachat.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                    "
+                    src="./images/datachatll.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7">Data Orchard</span>
+                  <h4>Data Orchard Off topics</h4>
+                  <span style="opacity: 0.7">Mehedi: oky 9h</span>
+                </span>
+              </section>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/getpaid.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                    "
+                    src="./images/getpaidll.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7">Get Paid Course & tools Free</span>
+                  <h4>SamidaHosting.com</h4>
+                  <span style="opacity: 0.7">Samida: hello 11w</span>
+                </span>
+              </section>
+
+              <h4 style="padding: 8px 8px 8px 8px; font-size: 16.5px">
+                Chats you should join
+              </h4>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/webdesign.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                      background-color: white;
+                    "
+                    src="./images/webdesignll.png"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7; text-transform: uppercase"
+                    >Web Design & Developer</span
+                  >
+                  <h4>Web Developer Group</h4>
+                  <span style="opacity: 0.7">Click to join</span>
+                </span>
+              </section>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/ahmadullah.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                    "
+                    src="./images/ahmadullahll.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7">Ahmadullah</span>
+                  <h4>শায়েখ আহমাদুল্লাহ সমর্থক গ্রুপ</h4>
+                  <span style="opacity: 0.7">Click to join</span>
+                </span>
+              </section>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/webdesign.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                      background-color: white;
+                    "
+                    src="./images/webdesignll.png"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7; text-transform: uppercase"
+                    >Web Design & Developer</span
+                  >
+                  <h4>Web Developer Group</h4>
+                  <span style="opacity: 0.7">Click to join</span>
+                </span>
+              </section>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/ahmadullah.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                    "
+                    src="./images/ahmadullahll.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7">Ahmadullah</span>
+                  <h4>শায়েখ আহমাদুল্লাহ সমর্থক গ্রুপ</h4>
+                  <span style="opacity: 0.7">Click to join</span>
+                </span>
+              </section>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/webdesign.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                      background-color: white;
+                    "
+                    src="./images/webdesignll.png"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7; text-transform: uppercase"
+                    >Web Design & Developer</span
+                  >
+                  <h4>Web Developer Group</h4>
+                  <span style="opacity: 0.7">Click to join</span>
+                </span>
+              </section>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/ahmadullah.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                    "
+                    src="./images/ahmadullahll.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7">Ahmadullah</span>
+                  <h4>শায়েখ আহমাদুল্লাহ সমর্থক গ্রুপ</h4>
+                  <span style="opacity: 0.7">Click to join</span>
+                </span>
+              </section>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/webdesign.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                      background-color: white;
+                    "
+                    src="./images/webdesignll.png"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7; text-transform: uppercase"
+                    >Web Design & Developer</span
+                  >
+                  <h4>Web Developer Group</h4>
+                  <span style="opacity: 0.7">Click to join</span>
+                </span>
+              </section>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/ahmadullah.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                    "
+                    src="./images/ahmadullahll.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7">Ahmadullah</span>
+                  <h4>শায়েখ আহমাদুল্লাহ সমর্থক গ্রুপ</h4>
+                  <span style="opacity: 0.7">Click to join</span>
+                </span>
+              </section>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/webdesign.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                      background-color: white;
+                    "
+                    src="./images/webdesignll.png"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7; text-transform: uppercase"
+                    >Web Design & Developer</span
+                  >
+                  <h4>Web Developer Group</h4>
+                  <span style="opacity: 0.7">Click to join</span>
+                </span>
+              </section>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/ahmadullah.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                    "
+                    src="./images/ahmadullahll.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7">Ahmadullah</span>
+                  <h4>শায়েখ আহমাদুল্লাহ সমর্থক গ্রুপ</h4>
+                  <span style="opacity: 0.7">Click to join</span>
+                </span>
+              </section>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/webdesign.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                      background-color: white;
+                    "
+                    src="./images/webdesignll.png"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7; text-transform: uppercase"
+                    >Web Design & Developer</span
+                  >
+                  <h4>Web Developer Group</h4>
+                  <span style="opacity: 0.7">Click to join</span>
+                </span>
+              </section>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/ahmadullah.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                    "
+                    src="./images/ahmadullahll.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7">Ahmadullah</span>
+                  <h4>শায়েখ আহমাদুল্লাহ সমর্থক গ্রুপ</h4>
+                  <span style="opacity: 0.7">Click to join</span>
+                </span>
+              </section>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/webdesign.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                      background-color: white;
+                    "
+                    src="./images/webdesignll.png"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7; text-transform: uppercase"
+                    >Web Design & Developer</span
+                  >
+                  <h4>Web Developer Group</h4>
+                  <span style="opacity: 0.7">Click to join</span>
+                </span>
+              </section>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/ahmadullah.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                    "
+                    src="./images/ahmadullahll.jpg"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7">Ahmadullah</span>
+                  <h4>শায়েখ আহমাদুল্লাহ সমর্থক গ্রুপ</h4>
+                  <span style="opacity: 0.7">Click to join</span>
+                </span>
+              </section>
+              <section class="message" style="margin-top: -6px; padding: 5px">
+                <span class="message-img comm-img" style="position: relative">
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      border-radius: 10px;
+                      right: 0;
+                    "
+                    src="./images/webdesign.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="
+                      width: 37.32px;
+                      height: 37.32px;
+                      bottom: 5px;
+                      left: 0;
+                      background-color: white;
+                    "
+                    src="./images/webdesignll.png"
+                    alt=""
+                  />
+                </span>
+                <span class="message-details comm-d" style="margin-left: 5px">
+                  <span style="opacity: 0.7; text-transform: uppercase"
+                    >Web Design & Developer</span
+                  >
+                  <h4>Web Developer Group</h4>
+                  <span style="opacity: 0.7">Click to join</span>
+                </span>
+              </section>
+            </section>
+          </section>
+        </section>
+
+        <!-- Notification -->
+        <section
+          class="menu-details mess-sha notification-section"
+          style="
+            background-color: white;
+            width: 360px;
+            overflow: auto;
+          "
+        >
+          <section class="mess-head">
+            <h2 style="font-size: 25px">Notifications</h2>
+            <section class="mess-r">
+              <span
+                style="
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 20px;
+                  height: 20px;
+                "
+                ><i class="fa-solid fa-ellipsis fa-fw"></i
+              ></span>
+            </section>
+          </section>
+          <section class="inco">
+            <span class="inco-active in-hs" style="margin-right: 8px"
+              ><b>All</b></span
+            >
+            <span><b>Unread</b></span>
+          </section>
+          <section class="noti-fr">
+            <h3>Friend requests</h3>
+            <span><a href="#">See all</a></span>
+          </section>
+          <section class="not-maindabba">
+            <section class="not-item">
+              <img src="./images/friend.jpg" alt="" width="56px" height="56px" style="border-radius: 50%; margin-right: 10px;">
+              <section class="not-i-desc">
+                <span style="font-size: 16px;"><b>SB Shamim Ahammads</b></span><span style="font-size: 15px;"> sent you a friend request</span><br>
+                <span style="font-size: 12px; color: #0866ff; margin-top: 4px; display: block;"><b>25 minutes ago</b></span>
+                <section class="friend-down" style="text-align: left; margin-top: 10px;">
+                  <button class="down-white" style="width: 104px;">Confirm</button>
+                  <button class="down-garo" style="width: 104px;">Delete</button>
+                </section>
+              </section>
+            </section>
+            <section class="not-item">
+              <img src="./images/surovi.jpg" alt="" width="56px" height="56px" style="border-radius: 50%; margin-right: 10px;">
+              <section class="not-i-desc">
+                <span style="font-size: 16px;"><b>Surovi Islam</b></span><span style="font-size: 15px;"> sent you a friend request</span><br>
+                <span style="font-size: 12px; color: #0866ff; margin-top: 4px; display: block;"><b>1 day ago</b></span>
+                <section class="friend-down" style="text-align: left; margin-top: 10px;">
+                  <button class="down-white" style="width: 104px;">Confirm</button>
+                  <button class="down-garo" style="width: 104px;">Delete</button>
+                </section>
+              </section>
+            </section>
+            <section class="not-item">
+              <img src="./images/deibra.jpg" alt="" width="56px" height="56px" style="border-radius: 50%; margin-right: 10px;">
+              <section class="not-i-desc">
+                <span style="font-size: 16px;"><b>Dr Muhammad ibrahim</b></span><span style="font-size: 15px;"> shared a reel:
+                  "কিছু কমন প্রশ্ন #quran"</span><br>
+                <span style="font-size: 12px; color: #0866ff; margin-top: 4px; display: block;"><b>31 minutes ago</b></span>
+              </section>
+            </section>
+            <section class="not-item">
+              <img src="./images/qaderi.jpg" alt="" width="56px" height="56px" style="border-radius: 50%; margin-right: 10px;">
+              <section class="not-i-desc">
+                <span style="font-size: 16px;"><b>Muhammad Joynul Abedin Qadri</b></span><span style="font-size: 15px;"> shared a reel:
+                  "আপনাদের মাদ্রাসায়ে তাহেরিয়া জয়নুল উলুম...</span><br>
+                <span style="font-size: 12px; color: #0866ff; margin-top: 4px; display: block;"><b>31 minutes ago</b></span>
+              </section>
+            </section>
+            <section class="not-item">
+              <img src="./images/deibra.jpg" alt="" width="56px" height="56px" style="border-radius: 50%; margin-right: 10px;">
+              <section class="not-i-desc">
+                <span style="font-size: 16px;"><b>Dr Muhammad ibrahim</b></span><span style="font-size: 15px;"> shared a reel:
+                  "কিছু কমন প্রশ্ন #quran"</span><br>
+                <span style="font-size: 12px; color: #0866ff; margin-top: 4px; display: block;"><b>31 minutes ago</b></span>
+              </section>
+            </section>
+            <section class="not-item">
+              <img src="./images/qaderi.jpg" alt="" width="56px" height="56px" style="border-radius: 50%; margin-right: 10px;">
+              <section class="not-i-desc">
+                <span style="font-size: 16px;"><b>Muhammad Joynul Abedin Qadri</b></span><span style="font-size: 15px;"> shared a reel:
+                  "আপনাদের মাদ্রাসায়ে তাহেরিয়া জয়নুল উলুম...</span><br>
+                <span style="font-size: 12px; color: #0866ff; margin-top: 4px; display: block;"><b>31 minutes ago</b></span>
+              </section>
+            </section>
+            <section class="not-item">
+              <img src="./images/deibra.jpg" alt="" width="56px" height="56px" style="border-radius: 50%; margin-right: 10px;">
+              <section class="not-i-desc">
+                <span style="font-size: 16px;"><b>Dr Muhammad ibrahim</b></span><span style="font-size: 15px;"> shared a reel:
+                  "কিছু কমন প্রশ্ন #quran"</span><br>
+                <span style="font-size: 12px; color: #0866ff; margin-top: 4px; display: block;"><b>31 minutes ago</b></span>
+              </section>
+            </section>
+            <section class="not-item">
+              <img src="./images/qaderi.jpg" alt="" width="56px" height="56px" style="border-radius: 50%; margin-right: 10px;">
+              <section class="not-i-desc">
+                <span style="font-size: 16px;"><b>Muhammad Joynul Abedin Qadri</b></span><span style="font-size: 15px;"> shared a reel:
+                  "আপনাদের মাদ্রাসায়ে তাহেরিয়া জয়নুল উলুম...</span><br>
+                <span style="font-size: 12px; color: #0866ff; margin-top: 4px; display: block;"><b>31 minutes ago</b></span>
+              </section>
+            </section>
+            <section class="not-item">
+              <img src="./images/deibra.jpg" alt="" width="56px" height="56px" style="border-radius: 50%; margin-right: 10px;">
+              <section class="not-i-desc">
+                <span style="font-size: 16px;"><b>Dr Muhammad ibrahim</b></span><span style="font-size: 15px;"> shared a reel:
+                  "কিছু কমন প্রশ্ন #quran"</span><br>
+                <span style="font-size: 12px; color: #0866ff; margin-top: 4px; display: block;"><b>31 minutes ago</b></span>
+              </section>
+            </section>
+            <section class="not-item">
+              <img src="./images/qaderi.jpg" alt="" width="56px" height="56px" style="border-radius: 50%; margin-right: 10px;">
+              <section class="not-i-desc">
+                <span style="font-size: 16px;"><b>Muhammad Joynul Abedin Qadri</b></span><span style="font-size: 15px;"> shared a reel:
+                  "আপনাদের মাদ্রাসায়ে তাহেরিয়া জয়নুল উলুম...</span><br>
+                <span style="font-size: 12px; color: #0866ff; margin-top: 4px; display: block;"><b>31 minutes ago</b></span>
+              </section>
+            </section>
+            <section class="not-item">
+              <img src="./images/deibra.jpg" alt="" width="56px" height="56px" style="border-radius: 50%; margin-right: 10px;">
+              <section class="not-i-desc">
+                <span style="font-size: 16px;"><b>Dr Muhammad ibrahim</b></span><span style="font-size: 15px;"> shared a reel:
+                  "কিছু কমন প্রশ্ন #quran"</span><br>
+                <span style="font-size: 12px; color: #0866ff; margin-top: 4px; display: block;"><b>31 minutes ago</b></span>
+              </section>
+            </section>
+            <section class="not-item">
+              <img src="./images/qaderi.jpg" alt="" width="56px" height="56px" style="border-radius: 50%; margin-right: 10px;">
+              <section class="not-i-desc">
+                <span style="font-size: 16px;"><b>Muhammad Joynul Abedin Qadri</b></span><span style="font-size: 15px;"> shared a reel:
+                  "আপনাদের মাদ্রাসায়ে তাহেরিয়া জয়নুল উলুম...</span><br>
+                <span style="font-size: 12px; color: #0866ff; margin-top: 4px; display: block;"><b>31 minutes ago</b></span>
+              </section>
+            </section>
+            </section>
+        </section>
+
+          <!-- Account -->
+        <section class="menu-details mess-sha notification-section acc-sec" style="background-color: white;width: 360px;overflow: auto; display: none; padding: 16px; height: auto;">
+          
+          <section class="accounts">
+            <section class="acc-img">
+              <img src="./images/header60.jpg" alt="">
+              <h4>Tahmid Alam JG</h4>
+            </section>
+            <hr style="margin-top: 5px; margin-bottom: 5px;">
+            <section class="acc-img">
+              <img src="./images/muchifa.jpg" alt="">
+              <h4>Munchifa Ruhani</h4>
+            </section>
+            <hr style="margin-top: 5px; margin-bottom: 10px;">
+            <section class="see-all">
+              <i style="
+                background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/RJ2gJMyPGF8.png?_nc_eui2=AeH90vnRwru_Al_qrOvnWViC6vTjOZz-MoLq9OM5nP4ygiVoIQRfuN8WYY2uKUKa9VilD4qsy5pmy98-Ms1iDXXs');
+                background-position: 0px -312px;
+                background-size: 26px 330px;
+                width: 16px;
+                height: 16px;
+                background-repeat: no-repeat;
+                display: inline-block;
+                margin-right: 5px;
+            "></i><h4>See all profiles</h4>
+            </section>
+          </section>
+          <section class="acc-others">
+            <ul>
+              <li>
+                <section class="ac-oi">
+                  <i data-visualcompletion="css-img" class="x1b0d499 xep6ejk" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/lfRS-QIc3dJ.png?_nc_eui2=AeE4-01SjLbmdKEqRHxM6mqShdSgpLic2IGF1KCkuJzYgUX_A2N6MyREs8K3FpeFFgeZ9hityv-B17YrQ3VZaqsD&quot;); background-position: 0px -26px; background-size: 26px 376px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                </section>
+                <section class="ac-des">
+                  <span style="font-weight: 600; font-size: 14px;">Meta Business Suite</span>
+                  <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/lfRS-QIc3dJ.png?_nc_eui2=AeE4-01SjLbmdKEqRHxM6mqShdSgpLic2IGF1KCkuJzYgUX_A2N6MyREs8K3FpeFFgeZ9hityv-B17YrQ3VZaqsD&quot;); background-position: 0px 0px; background-size: 26px 376px; width: 24px; height: 24px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                </section>
+              </li>
+              <li>
+                <section class="ac-oi">
+                  <i data-visualcompletion="css-img" class="x1b0d499 xep6ejk" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/h36NkhYfcpy.png?_nc_eui2=AeEz6taED5CCa14LjXhr6xgyZcQdASfJ9wBlxB0BJ8n3AMH6dLP9955PsezNU4RuS_q22AeLa4-Ibm1jEAH7NgwC&quot;); background-position: 0px -106px; background-size: 190px 156px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                </section>
+                <section class="ac-des">
+                  <span style="font-weight: 600; font-size: 14px;">Settings & privacy</span>
+                  <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yK/r/-PCGIP7zMpw.png?_nc_eui2=AeEBsCvMVTZ5spCGI4Ma6veKVGCqwWLh9iZUYKrBYuH2Jhdim8Hp9oer-Xrwc82zooReUUt0-ckGj6ge3XS_gJgO&quot;); background-position: 0px -52px; background-size: 26px 454px; width: 24px; height: 24px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                </section>
+              </li>
+              <li>
+                <section class="ac-oi">
+                  <i data-visualcompletion="css-img" class="x1b0d499 xep6ejk" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/RJ2gJMyPGF8.png?_nc_eui2=AeH90vnRwru_Al_qrOvnWViC6vTjOZz-MoLq9OM5nP4ygiVoIQRfuN8WYY2uKUKa9VilD4qsy5pmy98-Ms1iDXXs&quot;); background-position: 0px -202px; background-size: 26px 330px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                </section>
+                <section class="ac-des">
+                  <span style="font-weight: 600; font-size: 14px;">Help & support</span>
+                  <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yK/r/-PCGIP7zMpw.png?_nc_eui2=AeEBsCvMVTZ5spCGI4Ma6veKVGCqwWLh9iZUYKrBYuH2Jhdim8Hp9oer-Xrwc82zooReUUt0-ckGj6ge3XS_gJgO&quot;); background-position: 0px -52px; background-size: 26px 454px; width: 24px; height: 24px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                </section>
+              </li>
+              <li>
+                <section class="ac-oi">
+                  <i data-visualcompletion="css-img" class="x1b0d499 xep6ejk" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/mJUJJLJLjZ3.png?_nc_eui2=AeF8ppBWEvT3S7vGg-vlYUMKi4TT7yhP_QaLhNPvKE_9BuctzdWgqNpryBresflLd3aXFi3LgHZJh_PaoDWPMJul&quot;); background-position: 0px -276px; background-size: 26px 498px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                </section>
+                <section class="ac-des">
+                  <span style="font-weight: 600; font-size: 14px;">Display & accessiblity</span>
+                  <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yK/r/-PCGIP7zMpw.png?_nc_eui2=AeEBsCvMVTZ5spCGI4Ma6veKVGCqwWLh9iZUYKrBYuH2Jhdim8Hp9oer-Xrwc82zooReUUt0-ckGj6ge3XS_gJgO&quot;); background-position: 0px -52px; background-size: 26px 454px; width: 24px; height: 24px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                </section>
+              </li>
+              <li>
+                <section class="ac-oi">
+                  <i data-visualcompletion="css-img" class="x1b0d499 xep6ejk" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/RJ2gJMyPGF8.png?_nc_eui2=AeH90vnRwru_Al_qrOvnWViC6vTjOZz-MoLq9OM5nP4ygiVoIQRfuN8WYY2uKUKa9VilD4qsy5pmy98-Ms1iDXXs&quot;); background-position: 0px -70px; background-size: 26px 330px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                </section>
+                <section class="ac-des">
+                  <span style="font-weight: 600; font-size: 14px;">Give feedback</span>
+                  <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yK/r/-PCGIP7zMpw.png?_nc_eui2=AeEBsCvMVTZ5spCGI4Ma6veKVGCqwWLh9iZUYKrBYuH2Jhdim8Hp9oer-Xrwc82zooReUUt0-ckGj6ge3XS_gJgO&quot;); background-position: 0px -52px; background-size: 26px 454px; width: 24px; height: 24px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                </section>
+              </li>
+              <li>
+                <section class="ac-oi">
+                  <i data-visualcompletion="css-img" class="x1b0d499 xep6ejk" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/lfRS-QIc3dJ.png?_nc_eui2=AeE4-01SjLbmdKEqRHxM6mqShdSgpLic2IGF1KCkuJzYgUX_A2N6MyREs8K3FpeFFgeZ9hityv-B17YrQ3VZaqsD&quot;); background-position: 0px -180px; background-size: 26px 376px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                </section>
+                <section class="ac-des">
+                  <span style="font-weight: 600; font-size: 14px;">Logout</span>
+                  <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yK/r/-PCGIP7zMpw.png?_nc_eui2=AeEBsCvMVTZ5spCGI4Ma6veKVGCqwWLh9iZUYKrBYuH2Jhdim8Hp9oer-Xrwc82zooReUUt0-ckGj6ge3XS_gJgO&quot;); background-position: 0px -52px; background-size: 26px 454px; width: 24px; height: 24px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                </section>
+              </li>
+            </ul>
+            <section class="left-bot-bot" style="margin-top: 15px;">
+              <a href="#">Privacy.</a>
+              <a href="#">Terms.</a>
+              <a href="#">Advertising.</a>
+              <a href="#">Ad Choices.</a>
+              <a href="#">Cookies.</a>
+              <a href="#">More.</a>
+              <a href="#">Meta &copy; 2023</a>
+            </section>
+          </section>
+
+
+        </section>
+          <!-- Account -->
+
+      </div>
+    </section>
+    <!-- Header Section -->
+
+    <!-- Main Section  -->
+    <section id="main">
+      <div id="left-side">
+        <div class="left-up-part">
+          <ul>
+            <li>
+              <div class="ls-tahmid"></div>
+              <div class="ls-des"><span>Tahmid Alam JG</span></div>
+            </li>
+            <li>
+              <div class="ls-friend"></div>
+              <div class="ls-des"><span>Friends</span></div>
+            </li>
+            <li>
+              <div class="ls-memo"></div>
+              <div class="ls-des"><span>Memories</span></div>
+            </li>
+            <li>
+              <div class="ls-saved"></div>
+              <div class="ls-des"><span>Saved</span></div>
+            </li>
+            <li>
+              <div class="ls-groups"></div>
+              <div class="ls-des"><span>Groups</span></div>
+            </li>
+            <li>
+              <div class="ls-video"></div>
+              <div class="ls-des"><span>Video</span></div>
+            </li>
+            <a href="#"
+              ><li class="see-more">
+                <div class="ls-down">
+                  <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="ls-des"><span>See more</span></div>
+              </li></a
+            >
+            <div id="hidden">
+              <li>
+                <div class="ls-add"></div>
+                <div class="ls-des"><span>Ads Manager</span></div>
+              </li>
+              <li>
+                <div class="ls-blood"></div>
+                <div class="ls-des"><span>Blood Donations</span></div>
+              </li>
+              <li>
+                <div class="ls-climate">
+                  <img src="./images/climate.png" alt="" />
+                </div>
+                <div class="ls-des"><span>Climate Science Center</span></div>
+              </li>
+              <li>
+                <div class="ls-event"></div>
+                <div class="ls-des"><span>Events</span></div>
+              </li>
+              <li>
+                <div class="ls-feeds">
+                  <img src="./images/feeds.png" alt="" />
+                </div>
+                <div class="ls-des"><span>Feeds</span></div>
+              </li>
+              <li>
+                <div class="ls-fund"></div>
+                <div class="ls-des"><span>Fundraisers</span></div>
+              </li>
+              <li>
+                <div class="ls-feeds">
+                  <img src="./images/gaming.png" alt="" />
+                </div>
+                <div class="ls-des"><span>Gaming Video</span></div>
+              </li>
+              <li>
+                <div class="ls-market"></div>
+                <div class="ls-des"><span>Marketplace</span></div>
+              </li>
+              <li>
+                <div class="ls-mess"></div>
+                <div class="ls-des"><span>Messenger</span></div>
+              </li>
+              <li>
+                <div class="ls-feeds">
+                  <img src="./images/mskid.png" alt="" />
+                </div>
+                <div class="ls-des"><span>Messenger Kids</span></div>
+              </li>
+              <li>
+                <div class="ls-feeds">
+                  <img src="./images/orders.png" alt="" />
+                </div>
+                <div class="ls-des"><span>Orders and payments</span></div>
+              </li>
+              <li>
+                <div class="ls-page"></div>
+                <div class="ls-des"><span>Pages</span></div>
+              </li>
+              <li>
+                <div class="ls-game"></div>
+                <div class="ls-des"><span>Play Games</span></div>
+              </li>
+              <li>
+                <div class="ls-feeds">
+                  <img src="./images/adacti.png" alt="" />
+                </div>
+                <div class="ls-des"><span>Recent ad acticity</span></div>
+              </li>
+              <a href="#"
+                ><li class="see-less">
+                  <div class="ls-down">
+                    <i class="fa-solid fa-angle-up"></i>
+                  </div>
+                  <div class="ls-des"><span>See less</span></div>
+                </li></a
+              >
+            </div>
+          </ul>
+        </div>
+
+        <hr />
+
+        <div class="left-bot-part">
+          <div class="lbph">
+            <h3>Your shortcuts</h3>
+            <span><a href="#">Edit</a></span>
+          </div>
+          <ul>
+            <li>
+              <div class="ls-feeds">
+                <img
+                  src="./images/dataor.png"
+                  alt=""
+                  style="border-radius: 5px"
+                />
+              </div>
+              <div class="ls-des"><span>Data Orchard</span></div>
+            </li>
+            <li>
+              <div class="ls-feeds">
+                <img
+                  src="./images/programing.png"
+                  alt=""
+                  style="border-radius: 5px"
+                />
+              </div>
+              <div class="ls-des"><span>Programing Hero Community</span></div>
+            </li>
+            <li>
+              <div class="ls-feeds">
+                <img
+                  src="./images/rangpur.jpg"
+                  alt=""
+                  style="border-radius: 5px"
+                />
+              </div>
+              <div class="ls-des">
+                <span>রংপুর বিভাগ(Rangpur Division)</span>
+              </div>
+            </li>
+            <li>
+              <div class="ls-feeds">
+                <img
+                  src="./images/troll.jpg"
+                  alt=""
+                  style="border-radius: 5px"
+                />
+              </div>
+              <div class="ls-des">
+                <span>ট্রল সালমান খান হেটার্স</span>
+              </div>
+            </li>
+            <li>
+              <div class="ls-feeds">
+                <img
+                  src="./images/lead.png"
+                  alt=""
+                  style="border-radius: 5px"
+                />
+              </div>
+              <div class="ls-des">
+                <span>Lead Generation For Cold Mail</span>
+              </div>
+            </li>
+            <li>
+              <div class="ls-feeds">
+                <img
+                  src="./images/sesh.jpg"
+                  alt=""
+                  style="border-radius: 5px"
+                />
+              </div>
+              <div class="ls-des">
+                <span>শেষ রূপকথা</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="left-bot-bot">
+          <a href="#">Privacy.</a>
+          <a href="#">Terms.</a>
+          <a href="#">Advertising.</a>
+          <a href="#">Ad Choices.</a>
+          <a href="#">Cookies.</a>
+          <a href="#">More.</a>
+          <a href="#">Meta &copy; 2023</a>
+        </div>
+      </div>
+      <section id="main-body">
+        <div class="main-dabba">
+          <div class="all-stories">
+            <div class="story-arr">
+              <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="story-arr2">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="story">
+              <div class="story-item create-story">
+                <img
+                  src="./images/storytahmid.jpg"
+                  alt=""
+                  width="100%"
+                  height="200px"
+                />
+                <div class="crs-icon">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="story-bottom">
+                  <span>Create story</span>
+                </div>
+              </div>
+              <div class="story-item">
+                <img
+                  class="main-s-img"
+                  src="./images/medhaback2.jpg"
+                  alt=""
+                  height="100%"
+                  width="100%"
+                  style="object-fit: cover; border-radius: 8px"
+                />
+                <img class="story-img" src="./images/medha.jpg" alt="" />
+                <div class="story-name">
+                  <h4>Munchifa Ruhani</h4>
+                </div>
+              </div>
+              <div class="story-item">
+                <img
+                  class="main-s-img"
+                  src="./images/mouback.jpg"
+                  alt=""
+                  height="100%"
+                  width="100%"
+                  style="object-fit: cover; border-radius: 8px"
+                />
+                <img class="story-img" src="./images/mou.jpg" alt="" />
+                <div class="story-name">
+                  <h4>Mohima Akhter Mou</h4>
+                </div>
+              </div>
+              <div class="story-item">
+                <img
+                  class="main-s-img"
+                  src="./images/prantoback.jpg"
+                  alt=""
+                  height="100%"
+                  width="100%"
+                  style="object-fit: cover; border-radius: 8px"
+                />
+                <img class="story-img" src="./images/pranto.jpg" alt="" />
+                <div class="story-name">
+                  <h4>MD Nayeem Pranto</h4>
+                </div>
+              </div>
+              <div class="story-item">
+                <img
+                  class="main-s-img"
+                  src="./images/ashikrback2.jpg"
+                  alt=""
+                  height="100%"
+                  width="100%"
+                  style="object-fit: cover; border-radius: 8px"
+                />
+                <img class="story-img" src="./images/ashikur.jpg" alt="" />
+                <div class="story-name">
+                  <h4>Md Ashikur Rahman</h4>
+                </div>
+              </div>
+              <div class="story-item">
+                <img
+                  class="main-s-img"
+                  src="./images/yasinback.jpg"
+                  alt=""
+                  height="100%"
+                  width="100%"
+                  style="object-fit: cover; border-radius: 8px"
+                />
+                <img class="story-img" src="./images/yasin.jpg" alt="" />
+                <div class="story-name">
+                  <h4>Yasin Hasan</h4>
+                </div>
+              </div>
+              <div class="story-item">
+                <img
+                  class="main-s-img"
+                  src="./images/nihanback2.jpg"
+                  alt=""
+                  height="100%"
+                  width="100%"
+                  style="
+                    object-fit: cover;
+                    border-radius: 8px;
+                    background-size: cover;
+                  "
+                />
+                <img class="story-img" src="./images/nihan.jpg" alt="" />
+                <div class="story-name">
+                  <h4>Md Rayhan Kabir Nihan</h4>
+                </div>
+              </div>
+              <div class="story-item">
+                <img
+                  class="main-s-img"
+                  src="./images/tabiaback2.jpg"
+                  alt=""
+                  height="100%"
+                  width="100%"
+                  style="
+                    object-fit: cover;
+                    border-radius: 8px;
+                    background-size: cover;
+                  "
+                />
+                <img class="story-img" src="./images/tabia.jpg" alt="" />
+                <div class="story-name">
+                  <h4>Samiun Tabiya</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <section id="post">
+            <div class="write-post">
+              <div class="wp-top" style="width: 510">
+                <img src="./images/header60.jpg" alt="" />
+                <input class="showPost" type="text" placeholder="What's on your mind,Tahmid?" readonly />
+              </div>
+              <hr />
+              <div class="wp-bottom">
+                <div class="wp-btn">
+                  <img src="./images/download (1).png" alt="" />
+                  <span>Live Video</span>
+                </div>
+                <div class="wp-btn">
+                  <img src="./images/download.png" alt="" />
+                  <span>Photo/video</span>
+                </div>
+                <div class="wp-btn">
+                  <img src="./images/download (2).png" alt="" />
+                  <span>Feeling/activity</span>
+                </div>
+              </div>
+              <div class="post-pop">
+                <div class="postp-head">
+                  <div class="pph-title">
+                    <h2>Create Post</h2>
+                  </div>
+                  <div class="pph-cross" style="cursor: pointer;">
+                    <i></i>
+                  </div>
+                </div>
+                <hr style="opacity: 0.5;">
+                <div class="postp-acc">
+                  <img src="./images/header60.jpg" alt="">
+                  <div class="ppc-des">
+                    <h4>Tahmid Alam JG</h4>
+                    <select id="poost">
+                      <option><span>Public</span></option>
+                    </select>
+                  </div>
+                </div>
+                <div class="postp-write">
+                  <textarea class="pw-text" placeholder="What's on your mind, Tahmid?" style="font-family: Arial, Helvetica, sans-serif;"></textarea>
+                </div>
+                <div class="postp-aa-em">
+                  <div class="s-font">
+                    <img src="./images/Aa.png" alt="">
+                  </div>
+                  <div class="s-emoji" style="height: 36px; width: 36px;">
+                    <i style="
+                      height: 24px;
+                      width: 24px;
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yh/r/mIht6yMy-Ni.png?_nc_eui2=AeEHq0_WeZf28abCGmuRIqnT75wB6_9E_uDvnAHr_0T-4G10GBxiAKM_Ue86llLcn0T0fP2jjVdK8FHTXkasL7aV');
+                      background-position: 0px -124px;
+                      background-size: 38px 410px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                  "></i>
+                  </div>
+                </div>
+                <div class="add-post">
+                  <div class="ap-left">
+                    <h4>Add to your post</h4>
+                  </div>
+                  <div class="ap-right">
+                    <div><img src="./images/addimg.png" alt=""></div>
+                    <div><img src="./images/addtag.png" alt=""></div>
+                    <div><img src="./images/addemo.png" alt=""></div>
+                    <div><img src="./images/addloc.png" alt=""></div>
+                    <div><img src="./images/addgif.png" alt=""></div>
+                    <div><i style="height: 24px; width: 24px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/9oLIQ46ecpP.png?_nc_eui2=AeGvwDo4uaLB3CkW49DqycGQhpn_qOU1dm-Gmf-o5TV2b0qcq-3W-wlYVSSFkvMEaN11hjH4fEb_kjA7yIkD2KwH&quot;); background-position: 0px -38px; background-size: 38px 122px; background-repeat: no-repeat; display: inline-block;"></i></div>
+                  </div>
+                </div>
+                <div class="posst-btn">
+                  <Button><span style="opacity: 0.4;">Next</span></Button>
+                </div>
+              </div>
+            </div>
+            <div class="all-posts">
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/abid.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Abid</h4>
+                    <p>
+                      14 hours ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  <p>
+                    যদি এই বাড়িটি চিনতে পারেন, তাহলে নিঃসন্দেহে আপনার শৈশব খুব
+                    রঙিন ছিলো। 🖤🪶
+                  </p>
+                </div>
+                <div class="post-img">
+                  <img
+                    src="./images/oggy.jpg"
+                    alt=""
+                    height="100%"
+                    width="100%"
+                  />
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/apo.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Apo</h4>
+                    <p>
+                      54m <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  <p>কাউন্টডাউন শুরু 🔥</p>
+                </div>
+                <div class="post-img">
+                  <img
+                    src="./images/salmankhan.jpg"
+                    alt=""
+                    height="100%"
+                    width="100%"
+                  />
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/daily.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>The Daily Campus</h4>
+                    <p>
+                      46 minutes ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="post-img" style="padding: 4px 16px 16px">
+                  <p>ঢাকার নামকরা কলেজের শিক্ষার্থী এখন ছিনতাইকারী</p>
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>1876</span>
+                  </div>
+                  <div class="comment"><span>715 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/srkhan.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Dr SR Khan</h4>
+                    <p>
+                      2 hours ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  দাম্পত্য জীবনে সুখি হওয়ার জন্য -
+
+                  <p>
+                    ১. চরিত্র কে হিফাজত করা বিশেষ করে লজ্জা স্হান কে যথাযথ
+                    ব্যবহার করতে হবে। কমন ভুল অতিরিক্ত হস্তমৈথুন, পর্ণের নেশা আর
+                    সে নেশায় আসক্ত হয়ে নিজের যৌন জীবনকে পর্ণ সিনেমার সাথে তুলনা
+                    করা! অবাধ মেলামেশা করলে ধীরে ধীরে যৌন সমস্যা দেখা দেয় এমনকি
+                    বিভিন্ন যৌন রোগেআক্রান্ত হয়ে যায়।
+                  </p>
+                  <p>
+                    ২. দ্রুত বীর্যপাত যেন না হয় এদিকে খেয়াল করা নতুন বিবাহিত হলে
+                    প্রথম কয়েক মাস ধীর গতিতে সহবাস করা,একের অধিকবার মিলন করা।
+                  </p>
+
+                  <p>
+                    ৩. লিঙ্গের শীতলতা দূর করার জন্য নিয়মিত কেগেল এক্সারসাইজ
+                    অনুশীলন করা,পুষ্টিকর খাবার খাওয়া এবং অতিরিক্ত ভাত,ঝাল,
+                    মিষ্টি জাতীয় খাবার এড়িয়ে চলা।
+                  </p>
+                  <p>
+                    ৪.স্বামী স্ত্রী পরস্পরকে আল্লাহর জন্য ভালোবাসা,আল্লাহর কাছে
+                    মোহাব্বত বৃদ্ধির জন্য দোআ করা, পরস্পরের হক আদায় করা।
+                  </p>
+                  <p>
+                    ৫.বেসিক ধারণা রাখা ফোরপ্লে, জি স্পট, ক্লাইটোরিস, স্কোয়ার্টিং
+                    বা নারীর বীর্যপাত,সহবাসের আসন ইত্যাদি।
+                  </p>
+                  <p>৬. মানসিক দৃঢ়তা অর্জন করা, হাসি খুশি থাকা।</p>
+                  <p>
+                    ৭.বিশেষ অঙ্গের সাইজ ৩-৬ ইঞ্চির মধ্যে থাকলে শুকরিয়া আদায় করা
+                    ইত্যাদি।
+                  </p>
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/abid.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Abid</h4>
+                    <p>
+                      14 hours ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  <p>
+                    যদি এই বাড়িটি চিনতে পারেন, তাহলে নিঃসন্দেহে আপনার শৈশব খুব
+                    রঙিন ছিলো। 🖤🪶
+                  </p>
+                </div>
+                <div class="post-img">
+                  <img
+                    src="./images/oggy.jpg"
+                    alt=""
+                    height="100%"
+                    width="100%"
+                  />
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/apo.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Apo</h4>
+                    <p>
+                      54m <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  <p>কাউন্টডাউন শুরু 🔥</p>
+                </div>
+                <div class="post-img">
+                  <img
+                    src="./images/salmankhan.jpg"
+                    alt=""
+                    height="100%"
+                    width="100%"
+                  />
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/daily.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>The Daily Campus</h4>
+                    <p>
+                      46 minutes ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="post-img" style="padding: 4px 16px 16px">
+                  <p>ঢাকার নামকরা কলেজের শিক্ষার্থী এখন ছিনতাইকারী</p>
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>1876</span>
+                  </div>
+                  <div class="comment"><span>715 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/srkhan.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Dr SR Khan</h4>
+                    <p>
+                      2 hours ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  দাম্পত্য জীবনে সুখি হওয়ার জন্য -
+
+                  <p>
+                    ১. চরিত্র কে হিফাজত করা বিশেষ করে লজ্জা স্হান কে যথাযথ
+                    ব্যবহার করতে হবে। কমন ভুল অতিরিক্ত হস্তমৈথুন, পর্ণের নেশা আর
+                    সে নেশায় আসক্ত হয়ে নিজের যৌন জীবনকে পর্ণ সিনেমার সাথে তুলনা
+                    করা! অবাধ মেলামেশা করলে ধীরে ধীরে যৌন সমস্যা দেখা দেয় এমনকি
+                    বিভিন্ন যৌন রোগেআক্রান্ত হয়ে যায়।
+                  </p>
+                  <p>
+                    ২. দ্রুত বীর্যপাত যেন না হয় এদিকে খেয়াল করা নতুন বিবাহিত হলে
+                    প্রথম কয়েক মাস ধীর গতিতে সহবাস করা,একের অধিকবার মিলন করা।
+                  </p>
+
+                  <p>
+                    ৩. লিঙ্গের শীতলতা দূর করার জন্য নিয়মিত কেগেল এক্সারসাইজ
+                    অনুশীলন করা,পুষ্টিকর খাবার খাওয়া এবং অতিরিক্ত ভাত,ঝাল,
+                    মিষ্টি জাতীয় খাবার এড়িয়ে চলা।
+                  </p>
+                  <p>
+                    ৪.স্বামী স্ত্রী পরস্পরকে আল্লাহর জন্য ভালোবাসা,আল্লাহর কাছে
+                    মোহাব্বত বৃদ্ধির জন্য দোআ করা, পরস্পরের হক আদায় করা।
+                  </p>
+                  <p>
+                    ৫.বেসিক ধারণা রাখা ফোরপ্লে, জি স্পট, ক্লাইটোরিস, স্কোয়ার্টিং
+                    বা নারীর বীর্যপাত,সহবাসের আসন ইত্যাদি।
+                  </p>
+                  <p>৬. মানসিক দৃঢ়তা অর্জন করা, হাসি খুশি থাকা।</p>
+                  <p>
+                    ৭.বিশেষ অঙ্গের সাইজ ৩-৬ ইঞ্চির মধ্যে থাকলে শুকরিয়া আদায় করা
+                    ইত্যাদি।
+                  </p>
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/abid.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Abid</h4>
+                    <p>
+                      14 hours ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  <p>
+                    যদি এই বাড়িটি চিনতে পারেন, তাহলে নিঃসন্দেহে আপনার শৈশব খুব
+                    রঙিন ছিলো। 🖤🪶
+                  </p>
+                </div>
+                <div class="post-img">
+                  <img
+                    src="./images/oggy.jpg"
+                    alt=""
+                    height="100%"
+                    width="100%"
+                  />
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/apo.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Apo</h4>
+                    <p>
+                      54m <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  <p>কাউন্টডাউন শুরু 🔥</p>
+                </div>
+                <div class="post-img">
+                  <img
+                    src="./images/salmankhan.jpg"
+                    alt=""
+                    height="100%"
+                    width="100%"
+                  />
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/daily.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>The Daily Campus</h4>
+                    <p>
+                      46 minutes ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="post-img" style="padding: 4px 16px 16px">
+                  <p>ঢাকার নামকরা কলেজের শিক্ষার্থী এখন ছিনতাইকারী</p>
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>1876</span>
+                  </div>
+                  <div class="comment"><span>715 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/srkhan.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Dr SR Khan</h4>
+                    <p>
+                      2 hours ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  দাম্পত্য জীবনে সুখি হওয়ার জন্য -
+
+                  <p>
+                    ১. চরিত্র কে হিফাজত করা বিশেষ করে লজ্জা স্হান কে যথাযথ
+                    ব্যবহার করতে হবে। কমন ভুল অতিরিক্ত হস্তমৈথুন, পর্ণের নেশা আর
+                    সে নেশায় আসক্ত হয়ে নিজের যৌন জীবনকে পর্ণ সিনেমার সাথে তুলনা
+                    করা! অবাধ মেলামেশা করলে ধীরে ধীরে যৌন সমস্যা দেখা দেয় এমনকি
+                    বিভিন্ন যৌন রোগেআক্রান্ত হয়ে যায়।
+                  </p>
+                  <p>
+                    ২. দ্রুত বীর্যপাত যেন না হয় এদিকে খেয়াল করা নতুন বিবাহিত হলে
+                    প্রথম কয়েক মাস ধীর গতিতে সহবাস করা,একের অধিকবার মিলন করা।
+                  </p>
+
+                  <p>
+                    ৩. লিঙ্গের শীতলতা দূর করার জন্য নিয়মিত কেগেল এক্সারসাইজ
+                    অনুশীলন করা,পুষ্টিকর খাবার খাওয়া এবং অতিরিক্ত ভাত,ঝাল,
+                    মিষ্টি জাতীয় খাবার এড়িয়ে চলা।
+                  </p>
+                  <p>
+                    ৪.স্বামী স্ত্রী পরস্পরকে আল্লাহর জন্য ভালোবাসা,আল্লাহর কাছে
+                    মোহাব্বত বৃদ্ধির জন্য দোআ করা, পরস্পরের হক আদায় করা।
+                  </p>
+                  <p>
+                    ৫.বেসিক ধারণা রাখা ফোরপ্লে, জি স্পট, ক্লাইটোরিস, স্কোয়ার্টিং
+                    বা নারীর বীর্যপাত,সহবাসের আসন ইত্যাদি।
+                  </p>
+                  <p>৬. মানসিক দৃঢ়তা অর্জন করা, হাসি খুশি থাকা।</p>
+                  <p>
+                    ৭.বিশেষ অঙ্গের সাইজ ৩-৬ ইঞ্চির মধ্যে থাকলে শুকরিয়া আদায় করা
+                    ইত্যাদি।
+                  </p>
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/abid.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Abid</h4>
+                    <p>
+                      14 hours ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  <p>
+                    যদি এই বাড়িটি চিনতে পারেন, তাহলে নিঃসন্দেহে আপনার শৈশব খুব
+                    রঙিন ছিলো। 🖤🪶
+                  </p>
+                </div>
+                <div class="post-img">
+                  <img
+                    src="./images/oggy.jpg"
+                    alt=""
+                    height="100%"
+                    width="100%"
+                  />
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/apo.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Apo</h4>
+                    <p>
+                      54m <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  <p>কাউন্টডাউন শুরু 🔥</p>
+                </div>
+                <div class="post-img">
+                  <img
+                    src="./images/salmankhan.jpg"
+                    alt=""
+                    height="100%"
+                    width="100%"
+                  />
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/daily.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>The Daily Campus</h4>
+                    <p>
+                      46 minutes ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="post-img" style="padding: 4px 16px 16px">
+                  <p>ঢাকার নামকরা কলেজের শিক্ষার্থী এখন ছিনতাইকারী</p>
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>1876</span>
+                  </div>
+                  <div class="comment"><span>715 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/srkhan.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Dr SR Khan</h4>
+                    <p>
+                      2 hours ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  দাম্পত্য জীবনে সুখি হওয়ার জন্য -
+
+                  <p>
+                    ১. চরিত্র কে হিফাজত করা বিশেষ করে লজ্জা স্হান কে যথাযথ
+                    ব্যবহার করতে হবে। কমন ভুল অতিরিক্ত হস্তমৈথুন, পর্ণের নেশা আর
+                    সে নেশায় আসক্ত হয়ে নিজের যৌন জীবনকে পর্ণ সিনেমার সাথে তুলনা
+                    করা! অবাধ মেলামেশা করলে ধীরে ধীরে যৌন সমস্যা দেখা দেয় এমনকি
+                    বিভিন্ন যৌন রোগেআক্রান্ত হয়ে যায়।
+                  </p>
+                  <p>
+                    ২. দ্রুত বীর্যপাত যেন না হয় এদিকে খেয়াল করা নতুন বিবাহিত হলে
+                    প্রথম কয়েক মাস ধীর গতিতে সহবাস করা,একের অধিকবার মিলন করা।
+                  </p>
+
+                  <p>
+                    ৩. লিঙ্গের শীতলতা দূর করার জন্য নিয়মিত কেগেল এক্সারসাইজ
+                    অনুশীলন করা,পুষ্টিকর খাবার খাওয়া এবং অতিরিক্ত ভাত,ঝাল,
+                    মিষ্টি জাতীয় খাবার এড়িয়ে চলা।
+                  </p>
+                  <p>
+                    ৪.স্বামী স্ত্রী পরস্পরকে আল্লাহর জন্য ভালোবাসা,আল্লাহর কাছে
+                    মোহাব্বত বৃদ্ধির জন্য দোআ করা, পরস্পরের হক আদায় করা।
+                  </p>
+                  <p>
+                    ৫.বেসিক ধারণা রাখা ফোরপ্লে, জি স্পট, ক্লাইটোরিস, স্কোয়ার্টিং
+                    বা নারীর বীর্যপাত,সহবাসের আসন ইত্যাদি।
+                  </p>
+                  <p>৬. মানসিক দৃঢ়তা অর্জন করা, হাসি খুশি থাকা।</p>
+                  <p>
+                    ৭.বিশেষ অঙ্গের সাইজ ৩-৬ ইঞ্চির মধ্যে থাকলে শুকরিয়া আদায় করা
+                    ইত্যাদি।
+                  </p>
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/abid.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Abid</h4>
+                    <p>
+                      14 hours ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  <p>
+                    যদি এই বাড়িটি চিনতে পারেন, তাহলে নিঃসন্দেহে আপনার শৈশব খুব
+                    রঙিন ছিলো। 🖤🪶
+                  </p>
+                </div>
+                <div class="post-img">
+                  <img
+                    src="./images/oggy.jpg"
+                    alt=""
+                    height="100%"
+                    width="100%"
+                  />
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/apo.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Apo</h4>
+                    <p>
+                      54m <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  <p>কাউন্টডাউন শুরু 🔥</p>
+                </div>
+                <div class="post-img">
+                  <img
+                    src="./images/salmankhan.jpg"
+                    alt=""
+                    height="100%"
+                    width="100%"
+                  />
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/daily.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>The Daily Campus</h4>
+                    <p>
+                      46 minutes ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="post-img" style="padding: 4px 16px 16px">
+                  <p>ঢাকার নামকরা কলেজের শিক্ষার্থী এখন ছিনতাইকারী</p>
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>1876</span>
+                  </div>
+                  <div class="comment"><span>715 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/srkhan.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Dr SR Khan</h4>
+                    <p>
+                      2 hours ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  দাম্পত্য জীবনে সুখি হওয়ার জন্য -
+
+                  <p>
+                    ১. চরিত্র কে হিফাজত করা বিশেষ করে লজ্জা স্হান কে যথাযথ
+                    ব্যবহার করতে হবে। কমন ভুল অতিরিক্ত হস্তমৈথুন, পর্ণের নেশা আর
+                    সে নেশায় আসক্ত হয়ে নিজের যৌন জীবনকে পর্ণ সিনেমার সাথে তুলনা
+                    করা! অবাধ মেলামেশা করলে ধীরে ধীরে যৌন সমস্যা দেখা দেয় এমনকি
+                    বিভিন্ন যৌন রোগেআক্রান্ত হয়ে যায়।
+                  </p>
+                  <p>
+                    ২. দ্রুত বীর্যপাত যেন না হয় এদিকে খেয়াল করা নতুন বিবাহিত হলে
+                    প্রথম কয়েক মাস ধীর গতিতে সহবাস করা,একের অধিকবার মিলন করা।
+                  </p>
+
+                  <p>
+                    ৩. লিঙ্গের শীতলতা দূর করার জন্য নিয়মিত কেগেল এক্সারসাইজ
+                    অনুশীলন করা,পুষ্টিকর খাবার খাওয়া এবং অতিরিক্ত ভাত,ঝাল,
+                    মিষ্টি জাতীয় খাবার এড়িয়ে চলা।
+                  </p>
+                  <p>
+                    ৪.স্বামী স্ত্রী পরস্পরকে আল্লাহর জন্য ভালোবাসা,আল্লাহর কাছে
+                    মোহাব্বত বৃদ্ধির জন্য দোআ করা, পরস্পরের হক আদায় করা।
+                  </p>
+                  <p>
+                    ৫.বেসিক ধারণা রাখা ফোরপ্লে, জি স্পট, ক্লাইটোরিস, স্কোয়ার্টিং
+                    বা নারীর বীর্যপাত,সহবাসের আসন ইত্যাদি।
+                  </p>
+                  <p>৬. মানসিক দৃঢ়তা অর্জন করা, হাসি খুশি থাকা।</p>
+                  <p>
+                    ৭.বিশেষ অঙ্গের সাইজ ৩-৬ ইঞ্চির মধ্যে থাকলে শুকরিয়া আদায় করা
+                    ইত্যাদি।
+                  </p>
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/abid.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Abid</h4>
+                    <p>
+                      14 hours ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  <p>
+                    যদি এই বাড়িটি চিনতে পারেন, তাহলে নিঃসন্দেহে আপনার শৈশব খুব
+                    রঙিন ছিলো। 🖤🪶
+                  </p>
+                </div>
+                <div class="post-img">
+                  <img
+                    src="./images/oggy.jpg"
+                    alt=""
+                    height="100%"
+                    width="100%"
+                  />
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/apo.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Apo</h4>
+                    <p>
+                      54m <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  <p>কাউন্টডাউন শুরু 🔥</p>
+                </div>
+                <div class="post-img">
+                  <img
+                    src="./images/salmankhan.jpg"
+                    alt=""
+                    height="100%"
+                    width="100%"
+                  />
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/daily.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>The Daily Campus</h4>
+                    <p>
+                      46 minutes ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="post-img" style="padding: 4px 16px 16px">
+                  <p>ঢাকার নামকরা কলেজের শিক্ষার্থী এখন ছিনতাইকারী</p>
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>1876</span>
+                  </div>
+                  <div class="comment"><span>715 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-head">
+                  <div class="ph-left">
+                    <img src="./images/srkhan.jpg" alt="" />
+                  </div>
+                  <div class="ph-mid">
+                    <h4>Dr SR Khan</h4>
+                    <p>
+                      2 hours ago <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-desc">
+                  দাম্পত্য জীবনে সুখি হওয়ার জন্য -
+
+                  <p>
+                    ১. চরিত্র কে হিফাজত করা বিশেষ করে লজ্জা স্হান কে যথাযথ
+                    ব্যবহার করতে হবে। কমন ভুল অতিরিক্ত হস্তমৈথুন, পর্ণের নেশা আর
+                    সে নেশায় আসক্ত হয়ে নিজের যৌন জীবনকে পর্ণ সিনেমার সাথে তুলনা
+                    করা! অবাধ মেলামেশা করলে ধীরে ধীরে যৌন সমস্যা দেখা দেয় এমনকি
+                    বিভিন্ন যৌন রোগেআক্রান্ত হয়ে যায়।
+                  </p>
+                  <p>
+                    ২. দ্রুত বীর্যপাত যেন না হয় এদিকে খেয়াল করা নতুন বিবাহিত হলে
+                    প্রথম কয়েক মাস ধীর গতিতে সহবাস করা,একের অধিকবার মিলন করা।
+                  </p>
+
+                  <p>
+                    ৩. লিঙ্গের শীতলতা দূর করার জন্য নিয়মিত কেগেল এক্সারসাইজ
+                    অনুশীলন করা,পুষ্টিকর খাবার খাওয়া এবং অতিরিক্ত ভাত,ঝাল,
+                    মিষ্টি জাতীয় খাবার এড়িয়ে চলা।
+                  </p>
+                  <p>
+                    ৪.স্বামী স্ত্রী পরস্পরকে আল্লাহর জন্য ভালোবাসা,আল্লাহর কাছে
+                    মোহাব্বত বৃদ্ধির জন্য দোআ করা, পরস্পরের হক আদায় করা।
+                  </p>
+                  <p>
+                    ৫.বেসিক ধারণা রাখা ফোরপ্লে, জি স্পট, ক্লাইটোরিস, স্কোয়ার্টিং
+                    বা নারীর বীর্যপাত,সহবাসের আসন ইত্যাদি।
+                  </p>
+                  <p>৬. মানসিক দৃঢ়তা অর্জন করা, হাসি খুশি থাকা।</p>
+                  <p>
+                    ৭.বিশেষ অঙ্গের সাইজ ৩-৬ ইঞ্চির মধ্যে থাকলে শুকরিয়া আদায় করা
+                    ইত্যাদি।
+                  </p>
+                </div>
+                <div class="post-t-react">
+                  <div class="react-count">
+                    <img
+                      src="./images/like-logo.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                    />
+                    <img
+                      src="./images/love.svg"
+                      width="18px"
+                      height="18px"
+                      alt=""
+                      style="margin-left: -5px; margin-right: 5px"
+                    />
+                    <span>123</span>
+                  </div>
+                  <div class="comment"><span>45 comments</span></div>
+                </div>
+                <div class="post-react">
+                  <hr />
+                  <div style="display: flex">
+                    <div class="pr-btn">
+                      <div class="pr-l"></div>
+                      <span>Like</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l comments"></div>
+                      <span>Comment</span>
+                    </div>
+                    <div class="pr-btn">
+                      <div class="pr-l share"></div>
+                      <span>Share</span>
+                    </div>
+                    <div class="s-acc">
+                      <img
+                        src="./images/header60.jpg"
+                        width="20px"
+                        height="20px"
+                        alt=""
+                      />
+                      <i class="fa-solid fa-angle-down fa-2xs"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+      <div id="right-side">
+        <div class="right-up-part">
+          <div class="page-pro">
+            <h3 class="opacity">Your Pages and profiles</h3>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <hr />
+          <div class="page-pro" style="margin: 20px 0">
+            <h3 class="opacity">Friend requests</h3>
+            <a href="#" style="color: blue">See all</a>
+          </div>
+          <div class="friend">
+            <div class="friend-up">
+              <img src="./images/friend.jpg" alt="" />
+              <div class="m-name">
+                <h4>SB Shamim Ahammad</h4>
+                <div class="mutual">
+                  <img src="./images/mutual.jpg" alt="" />
+                  <span>1 mutual friend</span>
+                </div>
+              </div>
+            </div>
+            <div class="friend-down">
+              <button class="down-white">Confirm</button>
+              <button class="down-garo">Delete</button>
+            </div>
+          </div>
+          <hr />
+          <div class="contact" style="position: relative;">
+            <div class="page-pro" style="margin: 20px 0">
+              <h3 class="opacity">Contacts</h3>
+              <div class="contact-side">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+            </div>
+            <div class="contact-list">
+              <ul>
+                <li class="msgShow2">
+                  <div class="climg">
+                    <img
+                      src="./images/alimph.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>Ali Haider</span>
+                </li>
+                <li class="showMsg3">
+                  <div class="climg">
+                    <img
+                      src="./images/yasin.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>Yasin Hasan</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/ashikur.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>Md Ashikur Rahman</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/pranto.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>MD Nayeem Pranto</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/mou.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>Mohima Akter Mou</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/monoAR.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>Md. Monowarul Islam</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/nihan.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%; border: 3px solid #0866ff"
+                    />
+                    <span></span>
+                  </div>
+                  <span>Md Rayhan Kabir Nihan</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/tabia.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>Samiun Tabiya</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/yasin.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>Yasin Hasan</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/ashikur.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>Md Ashikur Rahman</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/pranto.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>MD Nayeem Pranto</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/mou.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>Mohima Akter Mou</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/monoAR.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>Md. Monowarul Islam</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/nihan.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%; border: 3px solid #0866ff"
+                    />
+                    <span></span>
+                  </div>
+                  <span>Md Rayhan Kabir Nihan</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/ashikur.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>Md Ashikur Rahman</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/pranto.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>MD Nayeem Pranto</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/mou.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>Mohima Akter Mou</span>
+                </li>
+              </ul>
+              
+            </div>
+            <hr />
+            <div class="page-pro" style="margin: 20px 0 5px">
+              <h3 class="opacity">Your community chats</h3>
+            </div>
+            <div class="contact-list" style="padding: 8px 0; cursor: pointer">
+              <ul>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/data.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                  </div>
+                  <div>
+                    <span>Data Orchard off topics</span>
+                    <p style="opacity: 0.7; font-size: 13px; margin-top: 4px">
+                      Data Orchard
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <hr />
+            <div class="page-pro" style="margin: 20px 0 10px">
+              <h3 class="opacity">Group conversations</h3>
+            </div>
+            <div class="contact-list">
+              <ul>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/webd.jpg"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>Web Development Group (N/A)</span>
+                </li>
+                <li>
+                  <div class="climg">
+                    <img
+                      src="./images/dataorg.png"
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      style="border-radius: 50%"
+                    />
+                    <span></span>
+                  </div>
+                  <span>The Data Crchard</span>
+                </li>
+                <li>
+                  <div class="climg gicon">
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <span>Create new group</span>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+        <div class="message-pop">
+          <div class="mp-head">
+            <div class="mph-left">
+              <img src="./images/alimph.jpg" alt="">
+              <div>
+                <h4>Ali Haider</h4>
+                <span>Active 10h ago</span>
+              </div>
+            </div>
+            <div class="mph-right">
+              <div class="mph-logo">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="mph-logo">
+                <i class="fa-solid fa-video"></i>
+              </div>
+              <div class="mph-logo">
+                <i class="fa-solid fa-minus"></i>
+              </div>
+              <div class="mph-logo">
+                <i class="fa-solid fa-xmark msgHide" style="font-size: 22px;"></i>
+              </div>
+            </div>
+          </div>
+          <div class="mp-body">
+            EMPTY
+          </div>
+          <div class="mp-bot">
+            <div class="mpb-left">
+              <i class="fa-solid fa-plus" style="color: white; background-color: #0866ff;"></i>
+              <i class="fa-regular fa-file-image"></i>
+              <i class="fa-solid fa-file-circle-plus"></i>
+              <i class="fa-solid fa-gift"></i>
+            </div>
+            <div class="mpb-right">
+              <input type="text" placeholder="Aa">
+              <i class="fa-solid fa-face-smile" style="margin-left: -32px;"></i>
+              <i class="fa-solid fa-thumbs-up" style="margin-left: 3px;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="message-pop message-pop2" style="right: 428px;">
+          <div class="mp-head">
+            <div class="mph-left">
+              <img src="./images/yasin.jpg" alt="">
+              <div>
+                <h4>Yasin Hassan</h4>
+                <span>Active 1h ago</span>
+              </div>
+            </div>
+            <div class="mph-right">
+              <div class="mph-logo">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="mph-logo">
+                <i class="fa-solid fa-video"></i>
+              </div>
+              <div class="mph-logo">
+                <i class="fa-solid fa-minus"></i>
+              </div>
+              <div class="mph-logo">
+                <i class="fa-solid fa-xmark msgHide2" style="font-size: 22px;"></i>
+              </div>
+            </div>
+          </div>
+          <div class="mp-body">
+            EMPTY2
+          </div>
+          <div class="mp-bot">
+            <div class="mpb-left">
+              <i class="fa-solid fa-plus" style="color: white; background-color: #0866ff;"></i>
+              <i class="fa-regular fa-file-image"></i>
+              <i class="fa-solid fa-file-circle-plus"></i>
+              <i class="fa-solid fa-gift"></i>
+            </div>
+            <div class="mpb-right">
+              <input type="text" placeholder="Aa">
+              <i class="fa-solid fa-face-smile" style="margin-left: -32px;"></i>
+              <i class="fa-solid fa-thumbs-up" style="margin-left: 3px;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- Main Section -->
+    <div class="post-icon"><i class="fa-regular fa-pen-to-square"></i></div>
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>

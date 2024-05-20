@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <section id="header">
+      <div class="header-l">
+        <a href="https://www.facebook.com"
+          ><img src="./images/download.svg" alt="fb-logo"
+        /></a>
+        <span class="video-search"
+          ><img src="./images/magnifying-glass-solid.svg" alt=""
+        /></span>
+      </div>
+      <div class="header-mid">
+        <a href="index.html"><i class="fa-solid fa-house" title="Home"></i></a>
+        <a href="watch.html"><i class="fa-solid fa-tv" title="Video"></i></a>
+        <a href="marketplace.html"
+          ><i class="fa-solid fa-shop active" title="Marketplace"></i
+        ></a>
+        <a href="game.html"
+          ><i class="fa-solid fa-gamepad" title="Gaming"></i
+        ></a>
+      </div>
+      <div class="header-r">
+        <div>
+          <img
+            width="20px"
+            height="20px"
+            src="./images/icons8-spotted-patterns-50.png"
+            alt="icon"
+            title="Menu"
+          />
+        </div>
+        <div>
+          <i class="fa-brands fa-facebook-messenger" title="Messenger"
+            ><span class="msg">9</span></i
+          >
+        </div>
+        <div>
+          <i class="fa-solid fa-bell" title="Notifications"
+            ><span class="msg">5</span></i
+          >
+        </div>
+        <div class="hrimg" title="Account">
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+      </div>
+    </section>
+    <!-- Header Section -->
+
+    <!-- Main Section -->
+    <section id="main">
+      <div id="left-side" class="video-left">
+        <div class="left-up-part video-left">
+          <div class="vl-t">
+            <h1>Marketplace</h1>
+            <div>
+              <span></span>
+            </div>
+          </div>
+          <div class="vl-search">
+            <input type="text" placeholder="Search Marketplace" />
+          </div>
+          <ul>
+            <li style="background-color: #d8dadfd3; border-radius: 5px">
+              <div class="ml-img browse"><span></span></div>
+              <div class="vl-desc">Browse all</div>
+            </li>
+            <li>
+              <div class="ml-img noti"><span></span></div>
+              <div class="vl-desc">Notifications</div>
+            </li>
+            <li>
+              <div class="ml-img inbox"><span></span></div>
+              <div class="vl-desc">Inbox</div>
+            </li>
+            <li>
+              <div class="ml-img buying"><span></span></div>
+              <div class="vl-desc b-style">
+                Buying
+                <span><i class="fa-solid fa-angle-right"></i></span>
+              </div>
+            </li>
+            <li>
+              <div class="ml-img selling"><span></span></div>
+              <div class="vl-desc b-style">
+                Selling <span><i class="fa-solid fa-angle-right"></i></span>
+              </div>
+            </li>
+            <div class="new-listing">
+              <i class="fa-solid fa-plus fa-fw"></i>
+              <h4>Create new listing</h4>
+            </div>
+          </ul>
+          <div style="margin-top: 15px; padding: 0px 8px 10px">
+            <h3>Categories</h3>
+          </div>
+          <ul>
+            <li>
+              <div class="ml-img browse">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/tXLBQZzm_Yd.png?_nc_eui2=AeE_Bft2WbaGUtmYtVWu1hdaVFchivk4wB1UVyGK-TjAHaaaqxoU25LHwNG6xR8rcJRUn1AgaLjSKRk-niP-oPqm');
+                    background-position: 0px -240px;
+                    background-size: 26px 806px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Vehicles</div>
+            </li>
+            <li>
+              <div class="ml-img noti">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -354px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Property Rentals</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -574px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Apparel</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/tXLBQZzm_Yd.png?_nc_eui2=AeE_Bft2WbaGUtmYtVWu1hdaVFchivk4wB1UVyGK-TjAHaaaqxoU25LHwNG6xR8rcJRUn1AgaLjSKRk-niP-oPqm');
+                    background-position: 0px -636px;
+                    background-size: 26px 806px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Classfieds</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/vyjVhglI4xI.png?_nc_eui2=AeHudKor_QHY6IOWRhpNpq22YbgicgPa4pZhuCJyA9rilhRkUZ4fqc5U5eXkZwuaGO2GgJQ6An6MKSSuodECQ81-');
+                    background-position: 0px -356px;
+                    background-size: 38px 498px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Electronics</div>
+            </li>
+            <li>
+              <div class="ml-img browse">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/tXLBQZzm_Yd.png?_nc_eui2=AeE_Bft2WbaGUtmYtVWu1hdaVFchivk4wB1UVyGK-TjAHaaaqxoU25LHwNG6xR8rcJRUn1AgaLjSKRk-niP-oPqm');
+                    background-position: 0px -240px;
+                    background-size: 26px 806px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Vehicles</div>
+            </li>
+            <li>
+              <div class="ml-img noti">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -354px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Property Rentals</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -574px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Apparel</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/tXLBQZzm_Yd.png?_nc_eui2=AeE_Bft2WbaGUtmYtVWu1hdaVFchivk4wB1UVyGK-TjAHaaaqxoU25LHwNG6xR8rcJRUn1AgaLjSKRk-niP-oPqm');
+                    background-position: 0px -636px;
+                    background-size: 26px 806px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Classfieds</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/vyjVhglI4xI.png?_nc_eui2=AeHudKor_QHY6IOWRhpNpq22YbgicgPa4pZhuCJyA9rilhRkUZ4fqc5U5eXkZwuaGO2GgJQ6An6MKSSuodECQ81-');
+                    background-position: 0px -356px;
+                    background-size: 38px 498px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Electronics</div>
+            </li>
+            <li>
+              <div class="ml-img browse">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/tXLBQZzm_Yd.png?_nc_eui2=AeE_Bft2WbaGUtmYtVWu1hdaVFchivk4wB1UVyGK-TjAHaaaqxoU25LHwNG6xR8rcJRUn1AgaLjSKRk-niP-oPqm');
+                    background-position: 0px -240px;
+                    background-size: 26px 806px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Vehicles</div>
+            </li>
+            <li>
+              <div class="ml-img noti">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -354px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Property Rentals</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -574px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Apparel</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/tXLBQZzm_Yd.png?_nc_eui2=AeE_Bft2WbaGUtmYtVWu1hdaVFchivk4wB1UVyGK-TjAHaaaqxoU25LHwNG6xR8rcJRUn1AgaLjSKRk-niP-oPqm');
+                    background-position: 0px -636px;
+                    background-size: 26px 806px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Classfieds</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/vyjVhglI4xI.png?_nc_eui2=AeHudKor_QHY6IOWRhpNpq22YbgicgPa4pZhuCJyA9rilhRkUZ4fqc5U5eXkZwuaGO2GgJQ6An6MKSSuodECQ81-');
+                    background-position: 0px -356px;
+                    background-size: 38px 498px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Electronics</div>
+            </li>
+            <li>
+              <div class="ml-img browse">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/tXLBQZzm_Yd.png?_nc_eui2=AeE_Bft2WbaGUtmYtVWu1hdaVFchivk4wB1UVyGK-TjAHaaaqxoU25LHwNG6xR8rcJRUn1AgaLjSKRk-niP-oPqm');
+                    background-position: 0px -240px;
+                    background-size: 26px 806px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Vehicles</div>
+            </li>
+            <li>
+              <div class="ml-img noti">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -354px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Property Rentals</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -574px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Apparel</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/tXLBQZzm_Yd.png?_nc_eui2=AeE_Bft2WbaGUtmYtVWu1hdaVFchivk4wB1UVyGK-TjAHaaaqxoU25LHwNG6xR8rcJRUn1AgaLjSKRk-niP-oPqm');
+                    background-position: 0px -636px;
+                    background-size: 26px 806px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Classfieds</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/vyjVhglI4xI.png?_nc_eui2=AeHudKor_QHY6IOWRhpNpq22YbgicgPa4pZhuCJyA9rilhRkUZ4fqc5U5eXkZwuaGO2GgJQ6An6MKSSuodECQ81-');
+                    background-position: 0px -356px;
+                    background-size: 38px 498px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Electronics</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section id="main-body" style="width: 78%">
+        <div class="market-head">
+          <h2>Today's picks</h2>
+        </div>
+        <div id="products">
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>FREE</h3>
+              <p>Gpu Gtx 1050 ti 4gb DDR 5 G1</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro2.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro2.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>FREE</h3>
+              <p>Gpu Gtx 1050 ti 4gb DDR 5 G1</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro2.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro2.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>FREE</h3>
+              <p>Gpu Gtx 1050 ti 4gb DDR 5 G1</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro2.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro2.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>FREE</h3>
+              <p>Gpu Gtx 1050 ti 4gb DDR 5 G1</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro2.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro2.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>FREE</h3>
+              <p>Gpu Gtx 1050 ti 4gb DDR 5 G1</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro2.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro2.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>FREE</h3>
+              <p>Gpu Gtx 1050 ti 4gb DDR 5 G1</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro2.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro2.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>FREE</h3>
+              <p>Gpu Gtx 1050 ti 4gb DDR 5 G1</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro2.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro2.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pro-img">
+              <img
+                src="./images/pro1.jpg"
+                alt=""
+                height="100%"
+                width="100%"
+                style="object-fit: cover; border-radius: 5px"
+              />
+            </div>
+            <div class="pro-desc">
+              <h3>৳6,000</h3>
+              <p>Industrial water pump</p>
+              <p>রংপুর, রংপুর</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- Main Section -->
+    <div class="post-icon"><i class="fa-regular fa-pen-to-square"></i></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

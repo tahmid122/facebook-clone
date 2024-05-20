@@ -1,0 +1,2637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <section id="header">
+      <div class="header-l">
+        <a href="https://www.facebook.com"
+          ><img src="./images/download.svg" alt="fb-logo"
+        /></a>
+        <span class="video-search"
+          ><img src="./images/magnifying-glass-solid.svg" alt=""
+        /></span>
+      </div>
+      <div class="header-mid">
+        <a href="index.html"><i class="fa-solid fa-house" title="Home"></i></a>
+        <a href="watch.html"><i class="fa-solid fa-tv" title="Video"></i></a>
+        <a href="marketplace.html"
+          ><i class="fa-solid fa-shop" title="Marketplace"></i
+        ></a>
+        <a href="game.html"
+          ><i class="fa-solid fa-gamepad active" title="Gaming"></i
+        ></a>
+      </div>
+      <div class="header-r">
+        <div>
+          <img
+            width="20px"
+            height="20px"
+            src="./images/icons8-spotted-patterns-50.png"
+            alt="icon"
+            title="Menu"
+          />
+        </div>
+        <div>
+          <i class="fa-brands fa-facebook-messenger" title="Messenger"
+            ><span class="msg">9</span></i
+          >
+        </div>
+        <div>
+          <i class="fa-solid fa-bell" title="Notifications"
+            ><span class="msg">5</span></i
+          >
+        </div>
+        <div class="hrimg" title="Account">
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+      </div>
+    </section>
+    <!-- Header Section -->
+
+    <!-- Main Section -->
+    <section id="main">
+      <div id="left-side" class="video-left">
+        <div class="left-up-part video-left">
+          <div class="vl-t">
+            <h1>Gaming</h1>
+            <div>
+              <span></span>
+            </div>
+          </div>
+          <div class="vl-search">
+            <input type="text" placeholder="Search gaming" />
+          </div>
+          <ul>
+            <li style="background-color: #d8dadfd3; border-radius: 5px">
+              <div class="ml-img browse">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                    background-position: 0px -108px;
+                    background-size: 38px 488px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Play Games</div>
+            </li>
+            <li>
+              <div class="ml-img noti"><span></span></div>
+              <div class="vl-desc">Notifications</div>
+            </li>
+          </ul>
+          <div style="margin-top: 15px; padding: 0px 8px 10px">
+            <h3>Categories</h3>
+          </div>
+          <ul>
+            <li>
+              <div class="ml-img browse">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -288px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">All games</div>
+            </li>
+            <li>
+              <div class="ml-img noti">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -354px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Adventure</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -574px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Action</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/tXLBQZzm_Yd.png?_nc_eui2=AeE_Bft2WbaGUtmYtVWu1hdaVFchivk4wB1UVyGK-TjAHaaaqxoU25LHwNG6xR8rcJRUn1AgaLjSKRk-niP-oPqm');
+                    background-position: 0px -636px;
+                    background-size: 26px 806px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Arcade</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/vyjVhglI4xI.png?_nc_eui2=AeHudKor_QHY6IOWRhpNpq22YbgicgPa4pZhuCJyA9rilhRkUZ4fqc5U5eXkZwuaGO2GgJQ6An6MKSSuodECQ81-');
+                    background-position: 0px -356px;
+                    background-size: 38px 498px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Battle</div>
+            </li>
+            <li>
+              <div class="ml-img browse">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -288px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">All games</div>
+            </li>
+            <li>
+              <div class="ml-img noti">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -354px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Adventure</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -574px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Action</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/tXLBQZzm_Yd.png?_nc_eui2=AeE_Bft2WbaGUtmYtVWu1hdaVFchivk4wB1UVyGK-TjAHaaaqxoU25LHwNG6xR8rcJRUn1AgaLjSKRk-niP-oPqm');
+                    background-position: 0px -636px;
+                    background-size: 26px 806px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Arcade</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/vyjVhglI4xI.png?_nc_eui2=AeHudKor_QHY6IOWRhpNpq22YbgicgPa4pZhuCJyA9rilhRkUZ4fqc5U5eXkZwuaGO2GgJQ6An6MKSSuodECQ81-');
+                    background-position: 0px -356px;
+                    background-size: 38px 498px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Battle</div>
+            </li>
+            <li>
+              <div class="ml-img browse">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -288px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">All games</div>
+            </li>
+            <li>
+              <div class="ml-img noti">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -354px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Adventure</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -574px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Action</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/tXLBQZzm_Yd.png?_nc_eui2=AeE_Bft2WbaGUtmYtVWu1hdaVFchivk4wB1UVyGK-TjAHaaaqxoU25LHwNG6xR8rcJRUn1AgaLjSKRk-niP-oPqm');
+                    background-position: 0px -636px;
+                    background-size: 26px 806px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Arcade</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/vyjVhglI4xI.png?_nc_eui2=AeHudKor_QHY6IOWRhpNpq22YbgicgPa4pZhuCJyA9rilhRkUZ4fqc5U5eXkZwuaGO2GgJQ6An6MKSSuodECQ81-');
+                    background-position: 0px -356px;
+                    background-size: 38px 498px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Battle</div>
+            </li>
+            <li>
+              <div class="ml-img browse">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -288px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">All games</div>
+            </li>
+            <li>
+              <div class="ml-img noti">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -354px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Adventure</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -574px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Action</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/tXLBQZzm_Yd.png?_nc_eui2=AeE_Bft2WbaGUtmYtVWu1hdaVFchivk4wB1UVyGK-TjAHaaaqxoU25LHwNG6xR8rcJRUn1AgaLjSKRk-niP-oPqm');
+                    background-position: 0px -636px;
+                    background-size: 26px 806px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Arcade</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/vyjVhglI4xI.png?_nc_eui2=AeHudKor_QHY6IOWRhpNpq22YbgicgPa4pZhuCJyA9rilhRkUZ4fqc5U5eXkZwuaGO2GgJQ6An6MKSSuodECQ81-');
+                    background-position: 0px -356px;
+                    background-size: 38px 498px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Battle</div>
+            </li>
+            <li>
+              <div class="ml-img browse">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -288px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">All games</div>
+            </li>
+            <li>
+              <div class="ml-img noti">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -354px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Adventure</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/LyCUpQb0KiM.png?_nc_eui2=AeG6-dvWXCf7FsfzH8nyDoDN3uzMbcQjYOze7MxtxCNg7In6BdvSE24dX8WpZJBnECOotScOU_fQ2mdlv-dt3ED7');
+                    background-position: 0px -574px;
+                    background-size: 34px 796px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Action</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/tXLBQZzm_Yd.png?_nc_eui2=AeE_Bft2WbaGUtmYtVWu1hdaVFchivk4wB1UVyGK-TjAHaaaqxoU25LHwNG6xR8rcJRUn1AgaLjSKRk-niP-oPqm');
+                    background-position: 0px -636px;
+                    background-size: 26px 806px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Arcade</div>
+            </li>
+            <li>
+              <div class="ml-img inbox">
+                <span
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/vyjVhglI4xI.png?_nc_eui2=AeHudKor_QHY6IOWRhpNpq22YbgicgPa4pZhuCJyA9rilhRkUZ4fqc5U5eXkZwuaGO2GgJQ6An6MKSSuodECQ81-');
+                    background-position: 0px -356px;
+                    background-size: 38px 498px;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></span>
+              </div>
+              <div class="vl-desc">Battle</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section id="main-body" style="width: 78%">
+        <div class="market-head">
+          <h2>Games we love</h2>
+        </div>
+        <div id="games">
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game1.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game1.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Yatzy FRVR</h1>
+                <button>1M players</button>
+              </div>
+            </div>
+            <div class="game-hover">
+              <div class="gh-video">
+                <video
+                  src="./videos/video4.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game2.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game2.jpg" alt="" />
+              <div class="game-desc">
+                <h1>The Puzzle</h1>
+                <button>2.8M players</button>
+              </div>
+            </div>
+            <div class="game-hover">
+              <div class="gh-video">
+                <video
+                  src="./videos/video5.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/gamw3.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/gamw3.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Cooking Center</h1>
+                <button>270k players</button>
+              </div>
+            </div>
+            <div class="game-hover">
+              <div class="gh-video">
+                <video
+                  src="./videos/video4.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game4.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game4.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Farmland</h1>
+                <button>124k players</button>
+              </div>
+            </div>
+            <div class="game-hover">
+              <div class="gh-video">
+                <video
+                  src="./videos/video5.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game1.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game1.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Yatzy FRVR</h1>
+                <button>1M players</button>
+              </div>
+            </div>
+            <div class="game-hover" style="left: -362px">
+              <div class="gh-video">
+                <video
+                  src="./videos/video4.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/gamw3.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/gamw3.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Cooking Center</h1>
+                <button>270k players</button>
+              </div>
+            </div>
+            <div class="game-hover" style="left: -362px">
+              <div class="gh-video">
+                <video
+                  src="./videos/video5.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="games">
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game1.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game1.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Yatzy FRVR</h1>
+                <button>1M players</button>
+              </div>
+            </div>
+            <div class="game-hover">
+              <div class="gh-video">
+                <video
+                  src="./videos/video4.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game2.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game2.jpg" alt="" />
+              <div class="game-desc">
+                <h1>The Puzzle</h1>
+                <button>2.8M players</button>
+              </div>
+            </div>
+            <div class="game-hover">
+              <div class="gh-video">
+                <video
+                  src="./videos/video5.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/gamw3.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/gamw3.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Cooking Center</h1>
+                <button>270k players</button>
+              </div>
+            </div>
+            <div class="game-hover">
+              <div class="gh-video">
+                <video
+                  src="./videos/video4.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game4.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game4.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Farmland</h1>
+                <button>124k players</button>
+              </div>
+            </div>
+            <div class="game-hover">
+              <div class="gh-video">
+                <video
+                  src="./videos/video5.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game1.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game1.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Yatzy FRVR</h1>
+                <button>1M players</button>
+              </div>
+            </div>
+            <div class="game-hover" style="left: -362px">
+              <div class="gh-video">
+                <video
+                  src="./videos/video4.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/gamw3.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/gamw3.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Cooking Center</h1>
+                <button>270k players</button>
+              </div>
+            </div>
+            <div class="game-hover" style="left: -362px">
+              <div class="gh-video">
+                <video
+                  src="./videos/video5.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="games">
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game1.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game1.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Yatzy FRVR</h1>
+                <button>1M players</button>
+              </div>
+            </div>
+            <div class="game-hover">
+              <div class="gh-video">
+                <video
+                  src="./videos/video4.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game2.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game2.jpg" alt="" />
+              <div class="game-desc">
+                <h1>The Puzzle</h1>
+                <button>2.8M players</button>
+              </div>
+            </div>
+            <div class="game-hover">
+              <div class="gh-video">
+                <video
+                  src="./videos/video5.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/gamw3.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/gamw3.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Cooking Center</h1>
+                <button>270k players</button>
+              </div>
+            </div>
+            <div class="game-hover">
+              <div class="gh-video">
+                <video
+                  src="./videos/video4.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game4.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game4.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Farmland</h1>
+                <button>124k players</button>
+              </div>
+            </div>
+            <div class="game-hover">
+              <div class="gh-video">
+                <video
+                  src="./videos/video5.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game1.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game1.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Yatzy FRVR</h1>
+                <button>1M players</button>
+              </div>
+            </div>
+            <div class="game-hover" style="left: -362px">
+              <div class="gh-video">
+                <video
+                  src="./videos/video4.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/gamw3.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/gamw3.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Cooking Center</h1>
+                <button>270k players</button>
+              </div>
+            </div>
+            <div class="game-hover" style="left: -362px">
+              <div class="gh-video">
+                <video
+                  src="./videos/video5.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="games">
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game1.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game1.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Yatzy FRVR</h1>
+                <button>1M players</button>
+              </div>
+            </div>
+            <div class="game-hover" style="top: -188px">
+              <div class="gh-video">
+                <video
+                  src="./videos/video4.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game2.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game2.jpg" alt="" />
+              <div class="game-desc">
+                <h1>The Puzzle</h1>
+                <button>2.8M players</button>
+              </div>
+            </div>
+            <div class="game-hover" style="top: -188px">
+              <div class="gh-video">
+                <video
+                  src="./videos/video5.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/gamw3.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/gamw3.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Cooking Center</h1>
+                <button>270k players</button>
+              </div>
+            </div>
+            <div class="game-hover" style="top: -188px">
+              <div class="gh-video">
+                <video
+                  src="./videos/video4.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game4.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game4.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Farmland</h1>
+                <button>124k players</button>
+              </div>
+            </div>
+            <div class="game-hover" style="top: -188px">
+              <div class="gh-video">
+                <video
+                  src="./videos/video5.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/game1.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/game1.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Yatzy FRVR</h1>
+                <button>1M players</button>
+              </div>
+            </div>
+            <div class="game-hover" style="left: -362px; top: -188px">
+              <div class="gh-video">
+                <video
+                  src="./videos/video4.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game-banner">
+              <img src="./images/gamw3.jpg" alt="" />
+            </div>
+            <div class="game-titile">
+              <img src="./images/gamw3.jpg" alt="" />
+              <div class="game-desc">
+                <h1>Cooking Center</h1>
+                <button>270k players</button>
+              </div>
+            </div>
+            <div class="game-hover" style="left: -362px; top: -188px">
+              <div class="gh-video">
+                <video
+                  src="./videos/video5.mp4"
+                  height="100%"
+                  width="100%"
+                  autoplay
+                  muted
+                  controls
+                ></video>
+              </div>
+              <div class="gh-desc">
+                <h2>Yatzy FRVR</h2>
+                <div class="ghd-desc">
+                  <span>1M players</span><button>Board</button>
+                </div>
+                <p>
+                  Can you get the highest mark? Roll the 5 dice and choose the
+                  best combination!
+                </p>
+                <div class="ghd-btn">
+                  <button
+                    style="
+                      width: 65%;
+                      background-color: #0866ff;
+                      font-weight: 600;
+                      font-size: 16px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1_Cz0dBPFi5.png?_nc_eui2=AeHypEGwdjUFvdGPNV1h9ZhQJi0fH4giBVUmLR8fiCIFVV690MD_zj-mfuJ_HfMByD7t9xYXxNqhfUejZe4YZvKV');
+                        background-position: 0px -108px;
+                        background-size: 38px 488px;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        margin-right: 5px;
+                      "
+                    ></span>
+                    Play
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/4G3PIPKRr8c.png?_nc_eui2=AeEf9yV3NlSz1341QJOLPKti8WIix0RJ7ojxYiLHREnuiFa0I-3sMFTN9Yw28I5Zaou22heACzE9UsWAkwX51kJh');
+                        background-position: 0px -448px;
+                        background-size: 26px 520px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></span>
+                  </button>
+                  <button>
+                    <span
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/qK99S3E7NCu.png?_nc_eui2=AeHEtpgNW5D0y0VTC_WUTAv9-n65E04moVj6frkTTiahWBQcfJjRU3FkkLQypZN8cIk_j80uJsIbmED0NVKIIpSy');
+                        background-position: -90px -154px;
+                        background-size: 190px 186px;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    >
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- Main Section -->
+    <div class="post-icon"><i class="fa-regular fa-pen-to-square"></i></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

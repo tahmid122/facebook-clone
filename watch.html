@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <section id="header">
+      <div class="header-l">
+        <a href="https://www.facebook.com"
+          ><img src="./images/download.svg" alt="fb-logo"
+        /></a>
+        <span class="video-search"
+          ><img src="./images/magnifying-glass-solid.svg" alt=""
+        /></span>
+      </div>
+      <div class="header-mid">
+        <a href="index.html"><i class="fa-solid fa-house" title="Home"></i></a>
+        <a href="watch.html"
+          ><i class="fa-solid fa-tv active" title="Video"></i
+        ></a>
+        <a href="marketplace.html"><i class="fa-solid fa-shop" title="Marketplace"></i></a>
+        <a href="game.html"><i class="fa-solid fa-gamepad" title="Gaming"></i></a>
+      </div>
+      <div class="header-r">
+        <div>
+          <img
+            width="20px"
+            height="20px"
+            src="./images/icons8-spotted-patterns-50.png"
+            alt="icon"
+            title="Menu"
+          />
+        </div>
+        <div>
+          <i class="fa-brands fa-facebook-messenger" title="Messenger"
+            ><span class="msg">9</span></i
+          >
+        </div>
+        <div>
+          <i class="fa-solid fa-bell" title="Notifications"
+            ><span class="msg">5</span></i
+          >
+        </div>
+        <div class="hrimg" title="Account">
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+      </div>
+    </section>
+    <!-- Header Section -->
+
+    <!-- Main Section -->
+    <section id="main">
+      <div id="left-side" class="video-left">
+        <div class="left-up-part video-left">
+          <div class="vl-t">
+            <h1>Video</h1>
+            <div>
+              <span></span>
+            </div>
+          </div>
+          <div class="vl-search">
+            <input type="text" placeholder="Search videos" />
+          </div>
+          <ul>
+            <li style="background-color: #d8dadfd3; border-radius: 5px">
+              <div class="vl-img"><span></span></div>
+              <div class="vl-desc">Home</div>
+            </li>
+            <li>
+              <div class="vl-img vl-live"><span></span></div>
+              <div class="vl-desc">Live</div>
+            </li>
+            <li>
+              <div class="vl-img vl-reels"><span></span></div>
+              <div class="vl-desc">Reels</div>
+            </li>
+            <li>
+              <div class="vl-img vl-shows"><span></span></div>
+              <div class="vl-desc">Shows</div>
+            </li>
+            <li>
+              <div class="vl-img vl-explore"><span></span></div>
+              <div class="vl-desc">Explore</div>
+            </li>
+            <li>
+              <div class="vl-img vl-s-videos"><span></span></div>
+              <div class="vl-desc">Saved Videos</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section id="main-body" style="width: 78%">
+        <section id="video">
+          <div class="s-video">
+            <div class="sv-head">
+              <div class="svh-left">
+                <img src="./images/superhuman.jpg" alt="" />
+              </div>
+              <div class="svh-mid">
+                <div class="ph-mid">
+                  <h4>
+                    Super human Tv
+                    <span><a style="color: blue" href="#">Follow</a></span>
+                  </h4>
+                  <p style="margin-top: 5px">
+                    November 25 at 4:30 PM
+                    <span style="margin-top: -5px">.</span>
+                    <span><i class="fa-solid fa-earth-americas"></i></span>
+                  </p>
+                </div>
+              </div>
+              <div class="ph-right">
+                <div>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+          </div>
+          <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+            <p><b>99% लोग ये बातें नही जानते होंगे | Most Amazing Facts</b>
+            </p>
+          </div>
+          <div class="sv-video" style="width: 100%; height: 435px;">
+            <video src="./videos/video1.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+          </div>
+          <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+            <div style="display: flex">
+              <div class="pr-btn sv-btn">
+                <div class="pr-l"></div>
+                <span>Like</span>
+              </div>
+              <div class="pr-btn sv-btn">
+                <div class="pr-l comments"></div>
+                <span>Comment</span>
+              </div>
+              <div class="pr-btn sv-btn">
+                <div class="pr-l share"></div>
+                <span>Share</span>
+              </div>
+            </div>
+            <div class="pr-right">
+                <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                    <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>37k</span>
+                    <span style="margin-top: -5px; font-weight: 700;">.</span>
+                    <span>219 comments</span>
+                    <span style="margin-top: -5px; font-weight: 700;">.</span>
+                    <span>1.4M views</span>
+                </div>
+            </div>
+          </div>
+        </section>
+        <section id="video">
+            <div class="s-video">
+              <div class="sv-head">
+                <div class="svh-left">
+                  <img src="./images/jamuna.jpg" alt="" />
+                </div>
+                <div class="svh-mid">
+                  <div class="ph-mid">
+                    <h4>
+                      Jamuna Television
+                      <span><a style="color: blue" href="#">Follow</a></span>
+                    </h4>
+                    <p style="margin-top: 5px">
+                      October 3
+                      <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                </div>
+                <div class="ph-right">
+                  <div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+              </div>
+            </div>
+            <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+              <p><b>দুর্ধর্ষ সিরিয়াল কিলারের গল্প!</b> <br>
+                  একই পরিবারের ৪ জনকে হত্যার তিন বছর পর ফের ৩ জনকে খুন
+              </p>
+            </div>
+            <div class="sv-video" style="width: 100%; height: 435px;">
+              <video src="./videos/video3.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+            </div>
+            <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex">
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l"></div>
+                  <span>Like</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l comments"></div>
+                  <span>Comment</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l share"></div>
+                  <span>Share</span>
+                </div>
+              </div>
+              <div class="pr-right">
+                  <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                      <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>270k</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>15k comments</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>9M views</span>
+                  </div>
+              </div>
+            </div>
+          </section>
+        <section id="video">
+          <div class="s-video">
+            <div class="sv-head">
+              <div class="svh-left">
+                <img src="./images/stargolpo.jpg" alt="" />
+              </div>
+              <div class="svh-mid">
+                <div class="ph-mid">
+                  <h4>
+                    Star Golpo
+                    <span><a style="color: blue" href="#">Follow</a></span>
+                  </h4>
+                  <p style="margin-top: 5px">
+                    October 01 at 10:30 PM
+                    <span style="margin-top: -5px">.</span>
+                    <span><i class="fa-solid fa-earth-americas"></i></span>
+                  </p>
+                </div>
+              </div>
+              <div class="ph-right">
+                <div>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+          </div>
+          <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+            <p>Animal এ Ranbir  থাকবে যমজ চরিত্রে? আরও থাকবে ২ টি Shocking Cameo?
+            </p>
+          </div>
+          <div class="sv-video" style="width: 100%; height: 435px;">
+            <video src="./videos/video2.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+          </div>
+          <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+            <div style="display: flex">
+              <div class="pr-btn sv-btn">
+                <div class="pr-l"></div>
+                <span>Like</span>
+              </div>
+              <div class="pr-btn sv-btn">
+                <div class="pr-l comments"></div>
+                <span>Comment</span>
+              </div>
+              <div class="pr-btn sv-btn">
+                <div class="pr-l share"></div>
+                <span>Share</span>
+              </div>
+            </div>
+            <div class="pr-right">
+                <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                    <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>12k</span>
+                    <span style="margin-top: -5px; font-weight: 700;">.</span>
+                    <span>490 comments</span>
+                    <span style="margin-top: -5px; font-weight: 700;">.</span>
+                    <span>1.9M views</span>
+                </div>
+            </div>
+          </div>
+        </section>
+        <section id="video">
+            <div class="s-video">
+              <div class="sv-head">
+                <div class="svh-left">
+                  <img src="./images/superhuman.jpg" alt="" />
+                </div>
+                <div class="svh-mid">
+                  <div class="ph-mid">
+                    <h4>
+                      Super human Tv
+                      <span><a style="color: blue" href="#">Follow</a></span>
+                    </h4>
+                    <p style="margin-top: 5px">
+                      November 25 at 4:30 PM
+                      <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                </div>
+                <div class="ph-right">
+                  <div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+              </div>
+            </div>
+            <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+              <p><b>99% लोग ये बातें नही जानते होंगे | Most Amazing Facts</b>
+              </p>
+            </div>
+            <div class="sv-video" style="width: 100%; height: 435px;">
+              <video src="./videos/video1.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+            </div>
+            <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex">
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l"></div>
+                  <span>Like</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l comments"></div>
+                  <span>Comment</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l share"></div>
+                  <span>Share</span>
+                </div>
+              </div>
+              <div class="pr-right">
+                  <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                      <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>37k</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>219 comments</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>1.4M views</span>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <section id="video">
+              <div class="s-video">
+                <div class="sv-head">
+                  <div class="svh-left">
+                    <img src="./images/jamuna.jpg" alt="" />
+                  </div>
+                  <div class="svh-mid">
+                    <div class="ph-mid">
+                      <h4>
+                        Jamuna Television
+                        <span><a style="color: blue" href="#">Follow</a></span>
+                      </h4>
+                      <p style="margin-top: 5px">
+                        October 3
+                        <span style="margin-top: -5px">.</span>
+                        <span><i class="fa-solid fa-earth-americas"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+                <p><b>দুর্ধর্ষ সিরিয়াল কিলারের গল্প!</b> <br>
+                    একই পরিবারের ৪ জনকে হত্যার তিন বছর পর ফের ৩ জনকে খুন
+                </p>
+              </div>
+              <div class="sv-video" style="width: 100%; height: 435px;">
+                <video src="./videos/video3.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+              </div>
+              <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+                <div style="display: flex">
+                  <div class="pr-btn sv-btn">
+                    <div class="pr-l"></div>
+                    <span>Like</span>
+                  </div>
+                  <div class="pr-btn sv-btn">
+                    <div class="pr-l comments"></div>
+                    <span>Comment</span>
+                  </div>
+                  <div class="pr-btn sv-btn">
+                    <div class="pr-l share"></div>
+                    <span>Share</span>
+                  </div>
+                </div>
+                <div class="pr-right">
+                    <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                        <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>270k</span>
+                        <span style="margin-top: -5px; font-weight: 700;">.</span>
+                        <span>15k comments</span>
+                        <span style="margin-top: -5px; font-weight: 700;">.</span>
+                        <span>9M views</span>
+                    </div>
+                </div>
+              </div>
+            </section>
+          <section id="video">
+            <div class="s-video">
+              <div class="sv-head">
+                <div class="svh-left">
+                  <img src="./images/stargolpo.jpg" alt="" />
+                </div>
+                <div class="svh-mid">
+                  <div class="ph-mid">
+                    <h4>
+                      Star Golpo
+                      <span><a style="color: blue" href="#">Follow</a></span>
+                    </h4>
+                    <p style="margin-top: 5px">
+                      October 01 at 10:30 PM
+                      <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                </div>
+                <div class="ph-right">
+                  <div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+              </div>
+            </div>
+            <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+              <p>Animal এ Ranbir  থাকবে যমজ চরিত্রে? আরও থাকবে ২ টি Shocking Cameo?
+              </p>
+            </div>
+            <div class="sv-video" style="width: 100%; height: 435px;">
+              <video src="./videos/video2.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+            </div>
+            <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex">
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l"></div>
+                  <span>Like</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l comments"></div>
+                  <span>Comment</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l share"></div>
+                  <span>Share</span>
+                </div>
+              </div>
+              <div class="pr-right">
+                  <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                      <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>12k</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>490 comments</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>1.9M views</span>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <section id="video">
+            <div class="s-video">
+              <div class="sv-head">
+                <div class="svh-left">
+                  <img src="./images/superhuman.jpg" alt="" />
+                </div>
+                <div class="svh-mid">
+                  <div class="ph-mid">
+                    <h4>
+                      Super human Tv
+                      <span><a style="color: blue" href="#">Follow</a></span>
+                    </h4>
+                    <p style="margin-top: 5px">
+                      November 25 at 4:30 PM
+                      <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                </div>
+                <div class="ph-right">
+                  <div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+              </div>
+            </div>
+            <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+              <p><b>99% लोग ये बातें नही जानते होंगे | Most Amazing Facts</b>
+              </p>
+            </div>
+            <div class="sv-video" style="width: 100%; height: 435px;">
+              <video src="./videos/video1.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+            </div>
+            <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex">
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l"></div>
+                  <span>Like</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l comments"></div>
+                  <span>Comment</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l share"></div>
+                  <span>Share</span>
+                </div>
+              </div>
+              <div class="pr-right">
+                  <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                      <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>37k</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>219 comments</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>1.4M views</span>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <section id="video">
+              <div class="s-video">
+                <div class="sv-head">
+                  <div class="svh-left">
+                    <img src="./images/jamuna.jpg" alt="" />
+                  </div>
+                  <div class="svh-mid">
+                    <div class="ph-mid">
+                      <h4>
+                        Jamuna Television
+                        <span><a style="color: blue" href="#">Follow</a></span>
+                      </h4>
+                      <p style="margin-top: 5px">
+                        October 3
+                        <span style="margin-top: -5px">.</span>
+                        <span><i class="fa-solid fa-earth-americas"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+                <p><b>দুর্ধর্ষ সিরিয়াল কিলারের গল্প!</b> <br>
+                    একই পরিবারের ৪ জনকে হত্যার তিন বছর পর ফের ৩ জনকে খুন
+                </p>
+              </div>
+              <div class="sv-video" style="width: 100%; height: 435px;">
+                <video src="./videos/video3.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+              </div>
+              <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+                <div style="display: flex">
+                  <div class="pr-btn sv-btn">
+                    <div class="pr-l"></div>
+                    <span>Like</span>
+                  </div>
+                  <div class="pr-btn sv-btn">
+                    <div class="pr-l comments"></div>
+                    <span>Comment</span>
+                  </div>
+                  <div class="pr-btn sv-btn">
+                    <div class="pr-l share"></div>
+                    <span>Share</span>
+                  </div>
+                </div>
+                <div class="pr-right">
+                    <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                        <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>270k</span>
+                        <span style="margin-top: -5px; font-weight: 700;">.</span>
+                        <span>15k comments</span>
+                        <span style="margin-top: -5px; font-weight: 700;">.</span>
+                        <span>9M views</span>
+                    </div>
+                </div>
+              </div>
+            </section>
+          <section id="video">
+            <div class="s-video">
+              <div class="sv-head">
+                <div class="svh-left">
+                  <img src="./images/stargolpo.jpg" alt="" />
+                </div>
+                <div class="svh-mid">
+                  <div class="ph-mid">
+                    <h4>
+                      Star Golpo
+                      <span><a style="color: blue" href="#">Follow</a></span>
+                    </h4>
+                    <p style="margin-top: 5px">
+                      October 01 at 10:30 PM
+                      <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                </div>
+                <div class="ph-right">
+                  <div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+              </div>
+            </div>
+            <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+              <p>Animal এ Ranbir  থাকবে যমজ চরিত্রে? আরও থাকবে ২ টি Shocking Cameo?
+              </p>
+            </div>
+            <div class="sv-video" style="width: 100%; height: 435px;">
+              <video src="./videos/video2.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+            </div>
+            <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex">
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l"></div>
+                  <span>Like</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l comments"></div>
+                  <span>Comment</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l share"></div>
+                  <span>Share</span>
+                </div>
+              </div>
+              <div class="pr-right">
+                  <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                      <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>12k</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>490 comments</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>1.9M views</span>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <section id="video">
+            <div class="s-video">
+              <div class="sv-head">
+                <div class="svh-left">
+                  <img src="./images/superhuman.jpg" alt="" />
+                </div>
+                <div class="svh-mid">
+                  <div class="ph-mid">
+                    <h4>
+                      Super human Tv
+                      <span><a style="color: blue" href="#">Follow</a></span>
+                    </h4>
+                    <p style="margin-top: 5px">
+                      November 25 at 4:30 PM
+                      <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                </div>
+                <div class="ph-right">
+                  <div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+              </div>
+            </div>
+            <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+              <p><b>99% लोग ये बातें नही जानते होंगे | Most Amazing Facts</b>
+              </p>
+            </div>
+            <div class="sv-video" style="width: 100%; height: 435px;">
+              <video src="./videos/video1.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+            </div>
+            <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex">
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l"></div>
+                  <span>Like</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l comments"></div>
+                  <span>Comment</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l share"></div>
+                  <span>Share</span>
+                </div>
+              </div>
+              <div class="pr-right">
+                  <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                      <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>37k</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>219 comments</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>1.4M views</span>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <section id="video">
+              <div class="s-video">
+                <div class="sv-head">
+                  <div class="svh-left">
+                    <img src="./images/jamuna.jpg" alt="" />
+                  </div>
+                  <div class="svh-mid">
+                    <div class="ph-mid">
+                      <h4>
+                        Jamuna Television
+                        <span><a style="color: blue" href="#">Follow</a></span>
+                      </h4>
+                      <p style="margin-top: 5px">
+                        October 3
+                        <span style="margin-top: -5px">.</span>
+                        <span><i class="fa-solid fa-earth-americas"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+                <p><b>দুর্ধর্ষ সিরিয়াল কিলারের গল্প!</b> <br>
+                    একই পরিবারের ৪ জনকে হত্যার তিন বছর পর ফের ৩ জনকে খুন
+                </p>
+              </div>
+              <div class="sv-video" style="width: 100%; height: 435px;">
+                <video src="./videos/video3.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+              </div>
+              <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+                <div style="display: flex">
+                  <div class="pr-btn sv-btn">
+                    <div class="pr-l"></div>
+                    <span>Like</span>
+                  </div>
+                  <div class="pr-btn sv-btn">
+                    <div class="pr-l comments"></div>
+                    <span>Comment</span>
+                  </div>
+                  <div class="pr-btn sv-btn">
+                    <div class="pr-l share"></div>
+                    <span>Share</span>
+                  </div>
+                </div>
+                <div class="pr-right">
+                    <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                        <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>270k</span>
+                        <span style="margin-top: -5px; font-weight: 700;">.</span>
+                        <span>15k comments</span>
+                        <span style="margin-top: -5px; font-weight: 700;">.</span>
+                        <span>9M views</span>
+                    </div>
+                </div>
+              </div>
+            </section>
+          <section id="video">
+            <div class="s-video">
+              <div class="sv-head">
+                <div class="svh-left">
+                  <img src="./images/stargolpo.jpg" alt="" />
+                </div>
+                <div class="svh-mid">
+                  <div class="ph-mid">
+                    <h4>
+                      Star Golpo
+                      <span><a style="color: blue" href="#">Follow</a></span>
+                    </h4>
+                    <p style="margin-top: 5px">
+                      October 01 at 10:30 PM
+                      <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                </div>
+                <div class="ph-right">
+                  <div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+              </div>
+            </div>
+            <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+              <p>Animal এ Ranbir  থাকবে যমজ চরিত্রে? আরও থাকবে ২ টি Shocking Cameo?
+              </p>
+            </div>
+            <div class="sv-video" style="width: 100%; height: 435px;">
+              <video src="./videos/video2.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+            </div>
+            <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex">
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l"></div>
+                  <span>Like</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l comments"></div>
+                  <span>Comment</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l share"></div>
+                  <span>Share</span>
+                </div>
+              </div>
+              <div class="pr-right">
+                  <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                      <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>12k</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>490 comments</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>1.9M views</span>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <section id="video">
+            <div class="s-video">
+              <div class="sv-head">
+                <div class="svh-left">
+                  <img src="./images/superhuman.jpg" alt="" />
+                </div>
+                <div class="svh-mid">
+                  <div class="ph-mid">
+                    <h4>
+                      Super human Tv
+                      <span><a style="color: blue" href="#">Follow</a></span>
+                    </h4>
+                    <p style="margin-top: 5px">
+                      November 25 at 4:30 PM
+                      <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                </div>
+                <div class="ph-right">
+                  <div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+              </div>
+            </div>
+            <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+              <p><b>99% लोग ये बातें नही जानते होंगे | Most Amazing Facts</b>
+              </p>
+            </div>
+            <div class="sv-video" style="width: 100%; height: 435px;">
+              <video src="./videos/video1.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+            </div>
+            <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex">
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l"></div>
+                  <span>Like</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l comments"></div>
+                  <span>Comment</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l share"></div>
+                  <span>Share</span>
+                </div>
+              </div>
+              <div class="pr-right">
+                  <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                      <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>37k</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>219 comments</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>1.4M views</span>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <section id="video">
+              <div class="s-video">
+                <div class="sv-head">
+                  <div class="svh-left">
+                    <img src="./images/jamuna.jpg" alt="" />
+                  </div>
+                  <div class="svh-mid">
+                    <div class="ph-mid">
+                      <h4>
+                        Jamuna Television
+                        <span><a style="color: blue" href="#">Follow</a></span>
+                      </h4>
+                      <p style="margin-top: 5px">
+                        October 3
+                        <span style="margin-top: -5px">.</span>
+                        <span><i class="fa-solid fa-earth-americas"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+                <p><b>দুর্ধর্ষ সিরিয়াল কিলারের গল্প!</b> <br>
+                    একই পরিবারের ৪ জনকে হত্যার তিন বছর পর ফের ৩ জনকে খুন
+                </p>
+              </div>
+              <div class="sv-video" style="width: 100%; height: 435px;">
+                <video src="./videos/video3.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+              </div>
+              <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+                <div style="display: flex">
+                  <div class="pr-btn sv-btn">
+                    <div class="pr-l"></div>
+                    <span>Like</span>
+                  </div>
+                  <div class="pr-btn sv-btn">
+                    <div class="pr-l comments"></div>
+                    <span>Comment</span>
+                  </div>
+                  <div class="pr-btn sv-btn">
+                    <div class="pr-l share"></div>
+                    <span>Share</span>
+                  </div>
+                </div>
+                <div class="pr-right">
+                    <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                        <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>270k</span>
+                        <span style="margin-top: -5px; font-weight: 700;">.</span>
+                        <span>15k comments</span>
+                        <span style="margin-top: -5px; font-weight: 700;">.</span>
+                        <span>9M views</span>
+                    </div>
+                </div>
+              </div>
+            </section>
+          <section id="video">
+            <div class="s-video">
+              <div class="sv-head">
+                <div class="svh-left">
+                  <img src="./images/stargolpo.jpg" alt="" />
+                </div>
+                <div class="svh-mid">
+                  <div class="ph-mid">
+                    <h4>
+                      Star Golpo
+                      <span><a style="color: blue" href="#">Follow</a></span>
+                    </h4>
+                    <p style="margin-top: 5px">
+                      October 01 at 10:30 PM
+                      <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                </div>
+                <div class="ph-right">
+                  <div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+              </div>
+            </div>
+            <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+              <p>Animal এ Ranbir  থাকবে যমজ চরিত্রে? আরও থাকবে ২ টি Shocking Cameo?
+              </p>
+            </div>
+            <div class="sv-video" style="width: 100%; height: 435px;">
+              <video src="./videos/video2.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+            </div>
+            <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex">
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l"></div>
+                  <span>Like</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l comments"></div>
+                  <span>Comment</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l share"></div>
+                  <span>Share</span>
+                </div>
+              </div>
+              <div class="pr-right">
+                  <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                      <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>12k</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>490 comments</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>1.9M views</span>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <section id="video">
+            <div class="s-video">
+              <div class="sv-head">
+                <div class="svh-left">
+                  <img src="./images/superhuman.jpg" alt="" />
+                </div>
+                <div class="svh-mid">
+                  <div class="ph-mid">
+                    <h4>
+                      Super human Tv
+                      <span><a style="color: blue" href="#">Follow</a></span>
+                    </h4>
+                    <p style="margin-top: 5px">
+                      November 25 at 4:30 PM
+                      <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                </div>
+                <div class="ph-right">
+                  <div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+              </div>
+            </div>
+            <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+              <p><b>99% लोग ये बातें नही जानते होंगे | Most Amazing Facts</b>
+              </p>
+            </div>
+            <div class="sv-video" style="width: 100%; height: 435px;">
+              <video src="./videos/video1.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+            </div>
+            <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex">
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l"></div>
+                  <span>Like</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l comments"></div>
+                  <span>Comment</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l share"></div>
+                  <span>Share</span>
+                </div>
+              </div>
+              <div class="pr-right">
+                  <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                      <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>37k</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>219 comments</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>1.4M views</span>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <section id="video">
+              <div class="s-video">
+                <div class="sv-head">
+                  <div class="svh-left">
+                    <img src="./images/jamuna.jpg" alt="" />
+                  </div>
+                  <div class="svh-mid">
+                    <div class="ph-mid">
+                      <h4>
+                        Jamuna Television
+                        <span><a style="color: blue" href="#">Follow</a></span>
+                      </h4>
+                      <p style="margin-top: 5px">
+                        October 3
+                        <span style="margin-top: -5px">.</span>
+                        <span><i class="fa-solid fa-earth-americas"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="ph-right">
+                    <div>
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+                <p><b>দুর্ধর্ষ সিরিয়াল কিলারের গল্প!</b> <br>
+                    একই পরিবারের ৪ জনকে হত্যার তিন বছর পর ফের ৩ জনকে খুন
+                </p>
+              </div>
+              <div class="sv-video" style="width: 100%; height: 435px;">
+                <video src="./videos/video3.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+              </div>
+              <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+                <div style="display: flex">
+                  <div class="pr-btn sv-btn">
+                    <div class="pr-l"></div>
+                    <span>Like</span>
+                  </div>
+                  <div class="pr-btn sv-btn">
+                    <div class="pr-l comments"></div>
+                    <span>Comment</span>
+                  </div>
+                  <div class="pr-btn sv-btn">
+                    <div class="pr-l share"></div>
+                    <span>Share</span>
+                  </div>
+                </div>
+                <div class="pr-right">
+                    <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                        <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>270k</span>
+                        <span style="margin-top: -5px; font-weight: 700;">.</span>
+                        <span>15k comments</span>
+                        <span style="margin-top: -5px; font-weight: 700;">.</span>
+                        <span>9M views</span>
+                    </div>
+                </div>
+              </div>
+            </section>
+          <section id="video">
+            <div class="s-video">
+              <div class="sv-head">
+                <div class="svh-left">
+                  <img src="./images/stargolpo.jpg" alt="" />
+                </div>
+                <div class="svh-mid">
+                  <div class="ph-mid">
+                    <h4>
+                      Star Golpo
+                      <span><a style="color: blue" href="#">Follow</a></span>
+                    </h4>
+                    <p style="margin-top: 5px">
+                      October 01 at 10:30 PM
+                      <span style="margin-top: -5px">.</span>
+                      <span><i class="fa-solid fa-earth-americas"></i></span>
+                    </p>
+                  </div>
+                </div>
+                <div class="ph-right">
+                  <div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+              </div>
+            </div>
+            <div class="sv-desc" style="padding: 0 12px 12px 12px;">
+              <p>Animal এ Ranbir  থাকবে যমজ চরিত্রে? আরও থাকবে ২ টি Shocking Cameo?
+              </p>
+            </div>
+            <div class="sv-video" style="width: 100%; height: 435px;">
+              <video src="./videos/video2.mp4" height="100%" width="100%" controls autoplay muted style="background-color: black;"></video>
+            </div>
+            <div class="post-react" style="display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex">
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l"></div>
+                  <span>Like</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l comments"></div>
+                  <span>Comment</span>
+                </div>
+                <div class="pr-btn sv-btn">
+                  <div class="pr-l share"></div>
+                  <span>Share</span>
+                </div>
+              </div>
+              <div class="pr-right">
+                  <div class="sv-react" style="display: flex; align-items: center; justify-content: center;">
+                      <span><img style="margin-right: -8px;" src="./images/like-logo.svg" alt=""> <img src="./images/love.svg" alt=""></span><span>12k</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>490 comments</span>
+                      <span style="margin-top: -5px; font-weight: 700;">.</span>
+                      <span>1.9M views</span>
+                  </div>
+              </div>
+            </div>
+          </section>
+
+      </section>
+    </section>
+    <!-- Main Section -->
+    <div class="post-icon"><i class="fa-regular fa-pen-to-square"></i></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
